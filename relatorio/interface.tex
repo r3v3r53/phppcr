@@ -1,0 +1,225 @@
+\chapter{Interface Java}
+
+Foi iniciada uma pequena implementação de uma aplicação em Java para interagir com a base de dados criada no projecto.\\
+
+Demonstramos aqui algumas funções da mesma, apresentando printscreens e a parte mais relevante do código criado para a sua execução.
+
+\section{Login}
+Efectua o login no sistema utilizando um username e password fornecidos pelo utilizador.
+De seguida obtém o nome do utilizador logado para incluir na mensagem no interface. 
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics{depoislogin.jpg}
+\caption{Interface: Login}
+\label{fig:interface1}
+\end{figure}
+
+\subsection{Código}
+\begin{lstlisting}
+public void connect(String host, String user, String pass) {
+		try
+		{
+			String url = "jdbc:sqlserver://" + host;
+			url += ";databaseName=BD2;";
+			url += "username="+user;
+			url += ";password="+pass;
+			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+			this.conn = DriverManager.getConnection(url);
+			if(this.getNome().equals("")){
+				this.resultados.setText("Logado como Administrador");
+			} else {
+				this.resultados.setText(this.getNome());
+			}
+			//this.resultados.setText(this.conn.toString());
+			
+		} catch (ClassNotFoundException | SQLException ex) {
+			this.resultados.setText(ex.getMessage());
+		}
+	}
+
+public String getNome(){
+		Statement statement = null;
+		ResultSet results 	= null;
+		String nome = new String();
+		try{
+			statement = this.conn.createStatement();
+			results = statement.executeQuery(
+					"EXECUTE p_get_dados"
+			);
+			results.next();
+			nome = "Logado como " + results.getNString("nome");
+			System.out.println(results.getNString("nome"));
+		} catch(SQLException ex){
+			System.out.println(ex.getMessage());
+		} 
+		return nome;
+	}
+\end{lstlisting}
+
+\section{Consultar dados de Utilizador}
+Esta funcionalidade apenas funciona com um utilizador do role sacad, pois é a única que pode efectuar um SELECT na tabela utilizadores bem como executar a stored procedure p\_get\_user\_data
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics{verdadosutilizador.jpg}
+\caption{Interface: Ver os dados de um utilizador}
+\label{fig:dados1}
+\end{figure}
+
+\subsection{Código}
+\begin{lstlisting}
+public void actionPerformed(ActionEvent e)
+    {
+	ResultSet users = 
+			this.bd.getRows(
+					"SELECT username FROM utilizador ORDER BY username ASC;");
+		
+		try {
+			while(users.next()){
+				usernames.add(users.getString("username"));
+			}
+		} catch (SQLException e) {
+			this.bd.resultados.setText(e.getMessage());
+		}
+
+	ResultSet dads = 
+				this.bd.getRows(
+						"execute p_get_user_data " + this.lista.getSelectedValue() );
+		try {
+			dads.next();
+			this.dados.setText("");
+			this.dados.append("Nome: " + dads.getString("nome") +"\n");
+			this.dados.append("Password: " + dads.getString("pass") +"\n");
+			this.dados.append("Email: " + dads.getString("email") +"\n");
+			this.dados.append("Morada: " + dads.getString("morada") +"\n");
+			this.dados.append("Telefone: " + dads.getString("telefone") +"\n");
+			this.dados.append("Roles: ");
+			dads = this.bd.getRows(
+					"execute p_get_user_roles " + this.lista.getSelectedValue());
+			try{
+				while(dads.next()){
+					this.dados.append(" ["+dads.getString("role")+"] " );
+				}
+			} catch(SQLException e2){
+				this.bd.resultados.setText(e2.getMessage());
+			}
+		} catch (SQLException e1) {
+			this.bd.resultados.setText(e1.getMessage());
+		}
+	}
+public ResultSet getRows(String query){
+		ResultSet results = null;
+		try{
+			this.statement = this.conn.createStatement();
+			results = statement.executeQuery(query);
+		} catch (SQLException ex) {
+			this.resultados.setText(ex.getMessage());
+		}
+		return results;
+	}
+\end{lstlisting}
+
+\section{Criar um novo Curso / Ano}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics{cursoano.jpg}
+\caption{Interface: Criar (associar) um novo Curso/ano}
+\label{fig:curso1}
+\end{figure}
+
+\subsection{Código}
+\begin{lstlisting}
+private void utilizadores(){
+		ArrayList<String> usernames = new ArrayList<String>();
+		String[] itens;
+		ResultSet users = 
+			this.bd.getRows(
+					"SELECT num_utilizador, username FROM utilizador ORDER BY username ASC;");
+		
+		try {
+			while(users.next()){
+				System.out.println(users.getString("num_utilizador") + ", " + users.getString("username"));
+				usernames.add(users.getString("username"));
+				this.utilizadores.put(users.getString("username"), users.getInt("num_utilizador"));
+			}
+		} catch (SQLException e) {
+			this.bd.resultados.setText(e.getMessage());
+		}
+		itens = usernames.toArray(new String[usernames.size()]);
+		this.utilizador =  new JList<String>(itens);
+		GridLayout box3 = new GridLayout(2,1);
+		JPanel ttres = new JPanel(box3);
+		ttres.add(this.tres);
+		ttres.add(this.utilizador);
+		
+		this.add(ttres, BorderLayout.EAST);
+	}
+	
+	private void curso(){
+		ArrayList<String> usernames = new ArrayList<String>();
+		String[] itens;
+		ResultSet users = 
+			this.bd.getRows(
+					"SELECT num_curso, nome_curso FROM curso ORDER BY nome_curso ASC;");
+		try {
+			while(users.next()){
+				usernames.add(users.getString("nome_curso"));
+				this.cursos.put(users.getString("nome_curso"), users.getInt("num_curso"));
+			}
+		} catch (SQLException e) {
+			this.bd.resultados.setText(e.getMessage());
+		}
+		itens = usernames.toArray(new String[usernames.size()]);
+		
+		this.curso =  new JList<String>(itens);
+		
+		GridLayout box2 = new GridLayout(2,1);
+		JPanel tdois = new JPanel(box2);
+		tdois.add(this.dois);
+		tdois.add(this.curso);
+		
+		this.add(tdois, BorderLayout.CENTER);
+	}
+	
+	private void ano(){
+		ArrayList<String> usernames = new ArrayList<String>();
+		String[] itens;
+		ResultSet users = 
+			this.bd.getRows(
+					"SELECT num_ano, titulo_ano FROM ano_lectivo ORDER BY titulo_ano ASC;");
+		try {
+			while(users.next()){
+				usernames.add(users.getString("titulo_ano"));
+				this.anos.put(users.getString("titulo_ano"), users.getInt("num_ano"));
+			}
+		} catch (SQLException e) {
+			this.bd.resultados.setText(e.getMessage());
+		}
+		itens = usernames.toArray(new String[usernames.size()]);
+		this.ano =  new JList<String>(itens);
+		
+		GridLayout box1 = new GridLayout(2,1);
+		JPanel tum = new JPanel(box1);
+		tum.add(this.um);
+		tum.add(this.ano);
+		
+		this.add(tum, BorderLayout.WEST);
+		
+	}
+	
+	public void actionPerformed(ActionEvent e){
+		String query = "INSERT INTO curso_ano (num_curso, num_ano, num_coordenador) " 
+				+ " VALUES('"+this.cursos.get(this.curso.getSelectedValue())+"', '"+ 
+				this.anos.get(this.ano.getSelectedValue()) + "', '"+
+				this.utilizadores.get(this.utilizador.getSelectedValue())+"');";
+		try {
+			this.bd.statement = this.bd.conn.createStatement();
+			this.bd.statement.executeQuery(query);
+			this.bd.resultados.setText("Curso/Ano Criado");
+		} catch (SQLException e1) {
+			this.bd.resultados.setText(e1.getMessage());
+		}
+    }
+\end{lstlisting}

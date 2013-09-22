@@ -1,0 +1,29 @@
+\chapter{Modelação da Base de Dados}
+
+\paragraph{}
+
+Resumidamente a base de dados está representada da seguinte forma:
+
+\begin{list}{\textbf{-}}{\textbf{TABELAS}}
+\item \textbf{curso} - Representa os cursos leccionados
+\item \textbf{ano\_lectivo} - Representa um ano lectivo
+\item \textbf{utilizador} - todos os utilizadores ficam registados nesta tabela
+\item \textbf{curso\_ano} - Representa um curso leccionado num determinado ano, nesta tabela fica representado o coordenador do curso nesse ano associando o id do respectivo user na tabela utilizador
+\item \textbf{semestre} - Representa um semestre de um determinado ano lectivo
+\item \textbf{disciplina} - Representa uma disciplina
+\item \textbf{disciplina\_semestre} - Faz referencia a uma disciplina leccionada num determinado semestre
+\item \textbf{Docente} - Representa um ou mais utilizadores designados como docentes de uma determinada disciplina
+\item \textbf{aluno} - Representa uma matrícula de um utilizador como aluno num determinado curso
+\item \textbf{matricula\_disciplina} - Representa a matricula numa disciplina de um determinado aluno
+\item \textbf{avaliacao} - Representa uma avaliacao marcada para uma disciplina leccionada num determinado semestre
+\item \textbf{avaliacao\_datas\_alt} - Nesta tabela ficam registadas as datas alternati vas escolhidas pelo docente para que o coordenador possa ter a possibilidade de trocar caso aconteça um peso demasiado excessivo nas avaliações para os alunos.
+\item \textbf{avaliacao\_aluno} - Representa a inscrição de um aluno numa avaliação e é onde fica registada a sua nota
+\end{list}
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics{imagens/1.png}
+\caption{Base de Dados: Modelo Físico}
+\label{fig:modelo_fisico}
+\end{figure}
+

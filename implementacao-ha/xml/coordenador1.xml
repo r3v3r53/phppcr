@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Avaliacoes>
+	<avaliacao>
+		<ano_curso>1</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>2</mes>
+			<dia>21</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Programacao 1</disciplina>
+		<min>P1</min>
+		<tipo>trabalho de grupo</tipo>
+		<peso>
+			<disc>50</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>20</alunos>
+		<salas>
+			<sala>Lab08</sala>
+		</salas>
+		<validada>0</validada>
+		<carga>1</carga>
+	</avaliacao>
+	<avaliacao>
+		<ano_curso>3</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>2</mes>
+			<dia>21</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Hipermedia e Acessibilidade</disciplina>
+		<min>HA</min>
+		<tipo>Exame de Recurso</tipo>
+		<peso>
+			<disc>100</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>10</alunos>
+		<salas>
+			<sala>Lab09</sala>
+		</salas>
+		<validada>1</validada>
+		<carga>2</carga>
+	</avaliacao>
+	<avaliacao>
+		<ano_curso>3</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>3</mes>
+			<dia>21</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Hipermedia e Acessibilidade</disciplina>
+		<tipo>Exame de Recurso</tipo>
+		<peso>
+			<disc>100</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>10</alunos>
+		<salas>
+			<sala>Lab09</sala>
+		</salas>
+		<validada>0</validada>
+		<carga>2</carga>
+	</avaliacao>
+	<avaliacao>
+		<ano_curso>3</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>6</mes>
+			<dia>23</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Hipermedia e Acessibilidade</disciplina>
+		<tipo>Exame de Recurso</tipo>
+		<peso>
+			<disc>100</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>10</alunos>
+		<salas>
+			<sala>Lab09</sala>
+		</salas>
+		<validada>0</validada>
+		<carga>2</carga>
+	</avaliacao>
+</Avaliacoes>

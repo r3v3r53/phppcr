@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gestão de Avaliações</title>
+<link href="css/simple.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript' src='scripts/jquery.js'></script>
+<script type="text/javascript" src="scripts/jquery-1.3.1.min.js"></script>
+<script type='text/javascript' src='scripts/jquery.simplemodal.js'></script>
+<script type="text/javascript" src="scripts/codes.js"></script>
+</head>
+<body>
+	<div id="cabecalho">
+    	<div id="ajuda_site">ajuda</div>
+        <div id="b_login">
+        	<a href="#" title="Login" >
+            	login
+            </a>
+        </div>
+    	<div id="titulo_site">
+        	<img src="imagens/ipbeja_logotipo.png" 
+            	alt="Logotipo IPBeja" 
+                title="Logotipo IPBeja" />
+        	<h1>
+            GEST&Atilde;O DE AVALIA&Ccedil;&Otilde;ES</h1>
+        </div>
+    </div>
+    <!-- fim do cabeçalho -->
+    <div id="menu">
+    	<div id="identificacao"></div>
+    </div>
+    <div id="alertas">A CARREGAR INFORMA&Ccedil;&Atilde;O</div>
+    <div id="conteudo">
+    	<div id="vistas">
+        	<form id="form_vista" method="post" action="#"
+        		enctype="text/plain">
+        	<fieldset id="vista" >
+            	<legend>vista do calend&aacute;rio:</legend>
+        	<input type="radio" name="vista" value="0" 
+            	id="semestre" />
+            <label for="semestre">semestral</label>
+            <input  type="radio" name="vista" value="1" 
+            	id="semana" />
+            <label for="semana">semanal</label> | 
+            <input  type="radio" name="vista" value="2" 
+            	id="disciplinas" />
+            <label for="disciplinas">disciplinas</label>
+            <input type="button" id="ver" name="ver" value="ver" />
+            </fieldset>
+            </form>
+        </div>
+        
+        <div id="prev"></div>
+        <div id="calendario"></div>
+        <div id="next"></div>
+        <div id="detalhes">detalhes do dia</div>
+    </div>
+    <div id="painel_login">
+		<div id="ajuda_login">ajuda</div>
+		<h1>AUTENTICA&Ccedil;&Atilde;O</h1>
+        <form action="#" method="post"
+        	enctype="text/plain" id="autenticacao" name="autenticacao">
+        <label for="form_utilizador">UTILIZADOR:</label>
+        <input type="text" id="form_utilizador" name="form_utilizador" />
+        <br />
+        <label for="form_password">PASSWORD:</label>
+        <input type="password" id="form_password" name="form_password" />
+        <br />
+        <div id="lgn"><input type="button" id="ok" name="ok" value="ok"/></div>
+        <input type="reset" value="cancel" class="simplemodal-close" />
+       
+		<br />recuperar password
+        </form>
+	</div>
+    <div id="avisos"></div>
+    
+<div id="detalhes_avaliacao">
+    	<div id="ajuda">ajuda</div>
+		<h1>DETALHES DA AVALIA&Ccedil;&Atilde;O</h1>
+        <div id="detalhes_disciplina"></div>
+        <div id="detalhes_tipo"></div>
+        <div id="detalhes_data"></div>
+        
+        <table>
+        	<tr>
+            	<td>
+                	<span class="bold">Descri&ccedil;&atilde;o</span><br />
+        			<div id="detalhes_descricao"></div>
+                </td>
+                <td>
+                	<span class="bold">Restri&ccedil;&otilde;es</span><br />
+			        <div id="detalhes_restricoes"></div>
+                </td>
+            </tr>
+        </table>
+        <div id="detalhes_salas"></div>
+        <div id="detalhes_pesos"></div>
+  <input type="button" value="fechar" class="simplemodal-close" />
+    </div>
+</body>
+</html>

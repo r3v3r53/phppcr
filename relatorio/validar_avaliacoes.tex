@@ -1,0 +1,86 @@
+\section{VALIDAR AVALIAÇÕES}
+
+\subsection{Descrição}
+O Coordenador de Curso pode validar, cancelar ou alterar as datas das avaliações das disciplinas do curso a ele associado 	
+
+\subsection{Pré-condições}
+O coordenador deverá estar logado e apenas terá acesso a avaliações de disciplinas do seu curso.
+
+\subsection{Situações de Falha}
+1. O Coordenador tenta validar uma avaliação já validada ou cancelar a validação de uma por validar.
+
+\subsection{Actores}
+Coordenador
+
+\subsection{Cenário Principal}
+
+\subsubsection{Validar Avaliação} 
+\prettyref{fig:validar_avaliacao}
+O coordenador:
+
+1. Ao visualizar uma disciplina, escolhe validar.
+
+2. O sistema regista a validação.
+
+3. Caso a operação corra com sucesso:
+
+3.1. O sistema obtem a lista de docentes e alunos da disciplina.
+
+3.2. O sistema consulta o endereço de cada um dos docentes e envia um email com os detalhes da operação.
+
+3.3. O sistema actualiza o calendario,
+
+3.4. O sistema apresenta a mensagem de operação efectuada com sucesso ao coordenador.
+
+3.5 O sistema apresenta o calendario
+
+4. Caso ocorra algum erro, o mesmo é apresentado ao coordenador
+
+\subsection{Extensões ou Variações} 
+\subsubsection{Cancelar Validação}
+ \prettyref{fig:cancelar_validacao}
+
+O Coordenador:
+
+1. Ao visualizar uma disciplina, escolhe cancelar a sua validação.
+
+2. O sistema assinala a avaliação por validar
+
+3. Caso a operação corra com sucesso:
+
+3.1. O sistema obtem a lista de docentes e alunos da disciplina.
+
+3.2. O sistema consulta o endereço de cada um dos docentes e envia um email com os detalhes da operação.
+
+3.3. O sistema actualiza o calendário
+
+3.4. O sistema apresenta a mensagem de operação efectuada com sucesso ao coordenador.
+
+3.5 O sistema apresenta o calendário
+
+4. Caso ocorra algum erro, o mesmo é apresentado ao coordenador.
+
+\subsubsection{Alterar data de Momento de Avaliação}
+ \prettyref{fig:alterar_data}
+
+O Coordenador:
+
+1. Ao visualizar uma avaliação, escolhe alterar a sua data.
+
+2. O sistema apresenta o formulário para alterar a data da avaliação
+
+3. O coordenador efectua a alteração
+
+4. Caso a operação corra com sucesso:
+
+4.1. O sistema obtem a lista de docentes e alunos da disciplina.
+
+4.2. O sistema consulta o endereço de cada um dos docentes e envia um email com os detalhes da operação.
+
+4.3. O sistema actualiza o calendário
+
+4.4. O sistema apresenta a mensagem de operação efectuada com sucesso ao coordenador.
+
+4.5 O sistema apresenta o calendário
+
+5. Caso ocorra algum erro, o mesmo é apresentado ao coordenador.

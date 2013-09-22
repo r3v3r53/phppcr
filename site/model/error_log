@@ -1,0 +1,18 @@
+[31-Jul-2013 16:22:26 Europe/Lisbon] PHP Warning:  require_once(model/Course.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/moreira/public_html/pcr/model/Coordinator.php on line 2
+[31-Jul-2013 16:22:26 Europe/Lisbon] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'model/Course.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/moreira/public_html/pcr/model/Coordinator.php on line 2
+[31-Jul-2013 16:22:38 Europe/Lisbon] PHP Fatal error:  Access level to Coordinator::setDisciplines() must be public (as in class Role) in /home/moreira/public_html/pcr/model/Coordinator.php on line 5
+[31-Jul-2013 16:23:02 Europe/Lisbon] PHP Fatal error:  Abstract function Role::setDisciplines() cannot be declared private in /home/moreira/public_html/pcr/model/Role.php on line 19
+[31-Jul-2013 16:27:47 Europe/Lisbon] PHP Fatal error:  Cannot access private property Role::$disciplines in /home/moreira/public_html/pcr/model/Coordinator.php on line 12
+[31-Jul-2013 16:28:03 Europe/Lisbon] PHP Fatal error:  Properties cannot be declared abstract in /home/moreira/public_html/pcr/model/Role.php on line 4
+[31-Jul-2013 16:28:40 Europe/Lisbon] PHP Fatal error:  Properties cannot be declared abstract in /home/moreira/public_html/pcr/model/Role.php on line 4
+[31-Jul-2013 16:29:54 Europe/Lisbon] PHP Fatal error:  Abstract function Role::getDisciplines() cannot contain body in /home/moreira/public_html/pcr/model/Role.php on line 17
+[31-Jul-2013 16:30:52 Europe/Lisbon] PHP Fatal error:  Abstract function Role::getDisciplines() cannot contain body in /home/moreira/public_html/pcr/model/Role.php on line 17
+[31-Jul-2013 16:31:05 Europe/Lisbon] PHP Fatal error:  Class Coordinator contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Role::getDisciplines) in /home/moreira/public_html/pcr/model/Coordinator.php on line 5
+[31-Jul-2013 16:31:21 Europe/Lisbon] PHP Fatal error:  Call to undefined method Coordinator::getDisciplines() in /home/moreira/public_html/pcr/model/Coordinator.php on line 19
+[31-Jul-2013 16:37:39 Europe/Lisbon] PHP Fatal error:  Interfaces may not include member variables in /home/moreira/public_html/pcr/model/Role.php on line 3
+[31-Jul-2013 17:23:08 Europe/Lisbon] PHP Fatal error:  Non-abstract method Role::addCourse() must contain body in /home/moreira/public_html/pcr/model/Role.php on line 11
+[31-Jul-2013 17:23:30 Europe/Lisbon] PHP Fatal error:  Call to private method Role::setDisciplines() from context 'Coordinator' in /home/moreira/public_html/pcr/model/Coordinator.php on line 12
+[31-Jul-2013 17:26:01 Europe/Lisbon] PHP Catchable fatal error:  Object of class Con could not be converted to string in /home/moreira/public_html/pcr/model/Coordinator.php on line 24
+[31-Jul-2013 17:26:55 Europe/Lisbon] PHP Fatal error:  Call to a member function getCoordinatorDisciplines() on a non-object in /home/moreira/public_html/pcr/model/Coordinator.php on line 17
+[31-Jul-2013 17:27:23 Europe/Lisbon] PHP Fatal error:  Cannot access private property Role::$con in /home/moreira/public_html/pcr/model/Coordinator.php on line 17
+[31-Jul-2013 17:27:34 Europe/Lisbon] PHP Fatal error:  Access to undeclared static property: Role::$con in /home/moreira/public_html/pcr/model/Coordinator.php on line 17
