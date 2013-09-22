@@ -1,0 +1,53 @@
+h1{	font-size: 250%; margin-bottom: 20px; }
+h2{	font-size: 200%; margin-bottom: 20px;}
+h3{	font-size: 180%; margin-bottom: 20px;}
+h4{	font-size: 160%; margin-bottom: 20px;}
+h5{	font-size: 110%; margin-bottom: 20px;}
+div#wrapper{
+	width:800px;
+	margin:auto;
+}
+#tipo{
+	width:300px;
+}
+div#logo{
+	width:200px;
+	height:150px;
+	float:left;
+	position:relative;
+	border:#000000 solid 1px;
+}
+.logo{
+	width:200px;
+	height:150px;
+}
+textarea{
+	width:100%;
+	height: 70px;
+}
+div#mensagem{
+	clear:both;
+	padding-left:50px;
+}
+div#titulo{
+	width:596px;
+	height:150px;
+	float:left;
+	text-align: center;
+	margin:auto;
+	position:relative;
+	border:#000000 solid 1px;
+}
+div#cabecalho{
+	clear:both;
+	width:100%;
+	height:150px;
+	overflow:hidden;
+}
+div#main{
+	width:100%;
+	clear:both;
+	overflow:auto;
+	border:#000000 1px solid;
+	padding: 10px;
+}

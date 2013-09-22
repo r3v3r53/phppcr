@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Utilizadores>
+	<utilizador>
+		<nome>Coordenador 1</nome>
+		<username>c1</username>
+		<password>c1</password>
+		<tipo>coordenador</tipo>
+		<curso>Engenharia Informatica</curso>
+	</utilizador>
+	<utilizador>
+		<nome>Docente 1</nome>
+		<username>docente1</username>
+		<password>docente1</password>
+		<tipo>docente</tipo>
+		<curso>Engenharia Informatica</curso>
+		<disciplina>disciplina1</disciplina>
+	</utilizador>
+	<utilizador>
+		<nome>Aluno 1</nome>
+		<username>aluno1</username>
+		<password>aluno1</password>
+		<tipo>aluno</tipo>
+		<curso>Engenharia Informatica</curso>
+		<disciplina>disciplina1</disciplina>
+	</utilizador>
+</Utilizadores>

@@ -1,0 +1,40 @@
+\section{EFECTUAR LOGIN}
+\subsection{Descrição}
+Todos os utilizadores do sistema podem efectuar login ou logout do sistema. 
+
+\subsection{Actores}
+User
+
+\subsection{Cenário Principal}
+ 
+\subsubsection{Login}
+\prettyref{fig:login}
+O Utilizador:
+
+1. Ao aceder ao site o sistema verifica se o utilizador está logado.
+
+2. Caso o utilizador esteja logado:
+
+2.1 O sistema consulta os cursos associados ao utilizador, agrupados pelo papel desempenhado no mesmo
+
+2.2 O sistema consulta as disciplinas associadas ao utilizador para cada curso.
+
+2.3 O sistema consulta as avaliações associadas a cada disciplina do utilizador
+
+\subsection{Extensões ou Variações} 
+
+
+\subsubsection{Logout}
+ \prettyref{fig:logout}
+
+O Utilizador:
+
+1. Escolhe efectuar logout.
+
+2. O sistema limpa os dados do utilizador na sessão actual.
+
+3. O sistema limpa os cursos associados ao utilizador como coordinator.
+
+4. O sistema limpa os cursos associados ao utilizador como teacher.
+
+5. O sistema limpa os cursos associados ao utilizador como student.

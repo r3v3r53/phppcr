@@ -1,0 +1,96 @@
+\documentclass[11pt, a4paper, twoside, a4wide, headsepline, bibtopic]{report}
+\textwidth = 15cm
+\textheight = 23,7cm
+\topmargin = 0pt
+\marginparsep = 0pt
+\marginparwidth = 0pt
+\footskip = 1cm
+\voffset = 0pt
+\headsep = 0cm
+\oddsidemargin 0.96cm
+\evensidemargin -0.04cm
+
+\usepackage[portuges]{babel}
+\usepackage{bibtopic}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\setlist{noitemsep}
+
+\usepackage{sectsty}
+% Para letras sans serif para os títulos das secções
+\allsectionsfont{\usefont{OT1}{phv}{bc}{n}\selectfont}
+
+\usepackage{color}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+\definecolor{rltbrightred}{rgb}{1,0,0}
+\definecolor{rltred}{rgb}{0.75,0,0}
+\definecolor{rltdarkred}{rgb}{0.5,0,0}
+\definecolor{rltbrightgreen}{rgb}{0,0.75,0}
+\definecolor{rltgreen}{rgb}{0,0.5,0}
+\definecolor{rltdarkgreen}{rgb}{0,0,0.25}
+\definecolor{rltbrightblue}{rgb}{0,0,1}
+\definecolor{rltblue}{rgb}{0,0,0.75}
+\definecolor{rltdarkblue}{rgb}{0,0,0.5}
+\definecolor{webred}{rgb}{0.5,.25,0}
+\definecolor{webblue}{rgb}{0,0,0.75}
+\definecolor{webgreen}{rgb}{0,0.5,0}
+\definecolor{webbrightgreen}{rgb}{0,0.5,0}
+
+
+\usepackage[pdftex,
+colorlinks=true,
+urlcolor=rltblue,               % \href{...}{...}
+anchorcolor=rltbrightblue,
+filecolor=rltgreen,             % \href*{...}
+linkcolor=rltblue,               % \ref{...} and \pageref{...}
+menucolor=webdarkblue,
+citecolor=webbrightgreen,
+pdftitle={Fase de Desenho e Analise},
+pdfauthor={Pedro Caixinha e Pedro Moreira},
+pdfsubject={Projecto da disciplina Programação Centrada na Rede},
+pdfkeywords={acessibilidade, prototipo, analise, desenho, usabilidade, MVC, OOP, PHP, mySQL},
+pagebackref=false,
+pdfpagemode=None,
+bookmarksopen=true]{hyperref}
+\pdfcompresslevel=9
+\linespread{1.3} % espaçamento de linha e meia
+
+
+\bibliographystyle{plain}
+\usepackage[pdftex]{graphicx}
+ \usepackage{thumbpdf}
+
+\newcommand{\goodgap}{%
+\hspace{\subfigtopskip}%
+\hspace{\subfigbottomskip}}
+% processamento mais agradável de figuras
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+
+\usepackage{icomma}
+\usepackage[utf8x]{inputenc} 
+
+\usepackage{makeidx}
+
+\usepackage[isu,small,ruled]{caption}
+%\setlength{\captionmargin}{0.5cm}
+\usepackage{prettyref}
+
+\newcommand\glossaryname{Gloss{\'a}rio}
+\newrefformat{fig}{Figura ~\ref{#1}}
+\newrefformat{tab}{Tabela ~\ref{#1}}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+
+\title{Programação Centrada na Rede}
+\author{Pedro Miguel Clemente Dias Moreira, n.º10015}
+\date{Outubro 17, 2012}
+
+\usepackage{glossary}
+\makeglossary
+
+\begin{document}

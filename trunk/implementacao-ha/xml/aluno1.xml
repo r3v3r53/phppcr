@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Avaliacoes>
+	<avaliacao id="0">
+		<ano_curso>1</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>2</mes>
+			<dia>21</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Programacao 1</disciplina>
+		<min>P1</min>
+		<tipo>trabalho de grupo</tipo>
+		<peso>
+			<disc>50</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>20</alunos>
+		<salas>
+			<sala>Lab08</sala>
+		</salas>
+		<inscrito>0</inscrito>
+		<detalhes>detalhes desta avaliacao (P1)</detalhes>
+		<restricoes>restricoes desta avaliacao (P1)</restricoes>
+	</avaliacao>
+	<avaliacao id="1">
+		<ano_curso>3</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>2</mes>
+			<dia>21</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Hipermedia e Acessibilidade</disciplina>
+		<min>HA</min>
+		<tipo>Exame de Recurso</tipo>
+		<peso>
+			<disc>100</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>10</alunos>
+		<salas>
+			<sala>Lab09</sala>
+		</salas>
+		<inscrito>1</inscrito>
+		<detalhes>detalhes desta avaliacao (ha)</detalhes>
+		<restricoes>restricoes desta avaliacao (ha)</restricoes>
+	</avaliacao>
+	<avaliacao id="2">
+		<ano_curso>3</ano_curso>
+		<data>
+			<ano>2013</ano>
+			<mes>3</mes>
+			<dia>23</dia>
+			<hora>20</hora>
+			<minutos>30</minutos>
+		</data>
+		<disciplina>Seguranca em Redes de Comunicacao</disciplina>
+		<min>SRC</min>
+		<tipo>Exame Epoca Normal</tipo>
+		<peso>
+			<disc>50</disc>
+			<curso>2</curso>
+		</peso>
+		<alunos>18</alunos>
+		<salas>
+			<sala>Lab10</sala>
+		</salas>
+		<inscrito>0</inscrito>
+		<detalhes>detalhes desta avaliacao (SRC)</detalhes>
+		<restricoes>restricoes desta avaliacao (SRC)</restricoes>
+	</avaliacao>
+</Avaliacoes>
