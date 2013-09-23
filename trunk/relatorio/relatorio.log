@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.5)  22 SEP 2013 08:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.5)  23 SEP 2013 21:31
 entering extended mode
 **relatorio.tex
-
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.tex"
+(C:\pedro\phppcr\relatorio\relatorio.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +13,8 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\config.tex" ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+(C:\pedro\phppcr\relatorio\config.tex
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -328,9 +325,7 @@ File: lstlang2.sty 2004/09/05 1.3 listings language file
 LaTeX Warning: Unused global option(s):
     [a4wide,headsepline,bibtotoc].
 
-
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.aux")
+(C:\pedro\phppcr\relatorio\relatorio.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 122.
 LaTeX Font Info:    ... okay on input line 122.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 122.
@@ -374,10 +369,8 @@ LaTeX Info: Redefining \ref on input line 122.
 LaTeX Info: Redefining \pageref on input line 122.
 LaTeX Info: Redefining \nameref on input line 122.
 
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.out")
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.out")
+(C:\pedro\phppcr\relatorio\relatorio.out)
+(C:\pedro\phppcr\relatorio\relatorio.out)
 \@outlinefile=\write3
 
 (C:\Users\xU\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def
@@ -387,8 +380,8 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 )
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\rosto.tex" <logo.png, id=223, 646.415pt x 499.8675pt>
+(C:\pedro\phppcr\relatorio\rosto.tex
+<logo.png, id=239, 646.415pt x 499.8675pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 6.
@@ -405,30 +398,25 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 22.
  [1
 
-{C:/Users/xU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/xU/De
-sktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/relatorio/logo.p
-ng>])
-[2
+{C:/Users/xU/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/pedro/phppc
+r/relatorio/logo.png>]) [2
 
 ]
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 10.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1phv.fd"
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.toc" [3
+(C:\pedro\phppcr\relatorio\relatorio.toc [3
 
 ])
 \tf@toc=\write4
  [4]
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.lof" [5
+(C:\pedro\phppcr\relatorio\relatorio.lof [5
 
 ])
 \tf@lof=\write5
  [6]
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\introducao.tex"
+(C:\pedro\phppcr\relatorio\introducao.tex
 Cap\'{\i }tulo 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--12
@@ -443,93 +431,85 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 [7
 
 
-]) [8]
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\casos_de_uso.tex"
+]) (C:\pedro\phppcr\relatorio\descricao_geral.tex [8]
 Cap\'{\i }tulo 2.
-<imagens/casos_de_uso.jpg, id=389, 380.17032pt x 377.15906pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+[9
+
+]) [10] (C:\pedro\phppcr\relatorio\casos_de_uso.tex
+Cap\'{\i }tulo 3.
+<imagens/casos_de_uso.jpg, id=419, 380.17032pt x 377.15906pt>
 File: imagens/casos_de_uso.jpg Graphic file (type jpg)
 
 <use imagens/casos_de_uso.jpg>
 Package pdftex.def Info: imagens/casos_de_uso.jpg used on input line 11.
 (pdftex.def)             Requested size: 380.16939pt x 377.15814pt.
-)
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\efectuar_login.tex"
+) (C:\pedro\phppcr\relatorio\efectuar_login.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-LaTeX Warning: Reference `fig:logout' on page 9 undefined on input line 28.
+ []
 
-[9
-
-
-])
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\listar_avaliacoes.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10 <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Project
-o 1/relatorio/imagens/casos_de_uso.jpg>]
-
-LaTeX Warning: Reference `fig:listar_entre_datas' on page 11 undefined on input
- line 15.
+[11
 
 
-LaTeX Warning: Reference `fig:listar_detalhes' on page 11 undefined on input li
+]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+[12 <C:/pedro/phppcr/relatorio/imagens/casos_de_uso.jpg>])
+(C:\pedro\phppcr\relatorio\listar_avaliacoes.tex
+
+LaTeX Warning: Reference `fig:listar_detalhes' on page 13 undefined on input li
 ne 30.
 
-)
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\gerir_momento_de_avaliacao.tex" [11]
+[13]) (C:\pedro\phppcr\relatorio\gerir_momento_de_avaliacao.tex
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
-[12])
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\validar_avaliacoes.tex" [13] [14])
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\visualizar_momentos_de_avaliacao.tex" [15])
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\modelacao_de_interfaces.tex" [16]
-Cap\'{\i }tulo 3.
-<imagens/login_i.jpg, id=447, 189.1065pt x 87.4467pt>
+[14]) (C:\pedro\phppcr\relatorio\validar_avaliacoes.tex [15] [16])
+(C:\pedro\phppcr\relatorio\visualizar_momentos_de_avaliacao.tex [17])
+(C:\pedro\phppcr\relatorio\modelacao_de_interfaces.tex [18]
+Cap\'{\i }tulo 4.
+<imagens/login_i.jpg, id=479, 189.1065pt x 87.4467pt>
 File: imagens/login_i.jpg Graphic file (type jpg)
 
 <use imagens/login_i.jpg>
 Package pdftex.def Info: imagens/login_i.jpg used on input line 6.
 (pdftex.def)             Requested size: 189.10603pt x 87.44647pt.
 
-<imagens/novo_registo_i.jpg, id=448, 191.0337pt x 283.7802pt>
+<imagens/novo_registo_i.jpg, id=480, 191.0337pt x 283.7802pt>
 File: imagens/novo_registo_i.jpg Graphic file (type jpg)
 
 <use imagens/novo_registo_i.jpg>
 Package pdftex.def Info: imagens/novo_registo_i.jpg used on input line 13.
 (pdftex.def)             Requested size: 191.03322pt x 283.7795pt.
 
-<imagens/alterar_registo_i.jpg, id=449, 406.1574pt x 211.2693pt>
+<imagens/alterar_registo_i.jpg, id=481, 406.1574pt x 211.2693pt>
 File: imagens/alterar_registo_i.jpg Graphic file (type jpg)
 
 <use imagens/alterar_registo_i.jpg>
 Package pdftex.def Info: imagens/alterar_registo_i.jpg used on input line 20.
 (pdftex.def)             Requested size: 406.1564pt x 211.26878pt.
 
-<imagens/recuperar_password_i.jpg, id=450, 189.1065pt x 87.2058pt>
+<imagens/recuperar_password_i.jpg, id=482, 189.1065pt x 87.2058pt>
 File: imagens/recuperar_password_i.jpg Graphic file (type jpg)
 
 <use imagens/recuperar_password_i.jpg>
 Package pdftex.def Info: imagens/recuperar_password_i.jpg used on input line 27
 .
 (pdftex.def)             Requested size: 189.10603pt x 87.20557pt.
- [17
+ [19
 
- <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/
-relatorio/imagens/login_i.jpg>]
-[18 <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto
- 1/relatorio/imagens/novo_registo_i.jpg> <C:/Users/xU/Desktop/enginf/3º ano/Pr
-ogramação Centrada na Rede/Projecto 1/relatorio/imagens/alterar_registo_i.jpg
->] [19 <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Proje
-cto 1/relatorio/imagens/recuperar_password_i.jpg>]
-<imagens/efectuar_inscricao_i.jpg, id=466, 402.303pt x 269.0853pt>
+ <C:/pedro/phppcr/relatorio/imagens/login_i.jpg>] [20 <C:/pedro/phppcr/relatori
+o/imagens/novo_registo_i.jpg> <C:/pedro/phppcr/relatorio/imagens/alterar_regist
+o_i.jpg>] [21 <C:/pedro/phppcr/relatorio/imagens/recuperar_password_i.jpg>]
+<imagens/efectuar_inscricao_i.jpg, id=496, 402.303pt x 269.0853pt>
 File: imagens/efectuar_inscricao_i.jpg Graphic file (type jpg)
 
 <use imagens/efectuar_inscricao_i.jpg>
@@ -537,20 +517,18 @@ Package pdftex.def Info: imagens/efectuar_inscricao_i.jpg used on input line 37
 .
 (pdftex.def)             Requested size: 402.302pt x 269.08464pt.
 
-<imagens/cancelar_inscricao_i.jpg, id=467, 402.303pt x 269.0853pt>
+<imagens/cancelar_inscricao_i.jpg, id=497, 402.303pt x 269.0853pt>
 File: imagens/cancelar_inscricao_i.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_inscricao_i.jpg>
 Package pdftex.def Info: imagens/cancelar_inscricao_i.jpg used on input line 44
 .
 (pdftex.def)             Requested size: 402.302pt x 269.08464pt.
- [20
+ [22
 
- <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/
-relatorio/imagens/efectuar_inscricao_i.jpg> <C:/Users/xU/Desktop/enginf/3º ano
-/Programação Centrada na Rede/Projecto 1/relatorio/imagens/cancelar_inscricao
-_i.jpg>]
-<imagens/alterar_momento_de_avaliacao_i.jpg, id=472, 410.0118pt x 376.2858pt>
+ <C:/pedro/phppcr/relatorio/imagens/efectuar_inscricao_i.jpg> <C:/pedro/phppcr/
+relatorio/imagens/cancelar_inscricao_i.jpg>]
+<imagens/alterar_momento_de_avaliacao_i.jpg, id=502, 410.0118pt x 376.2858pt>
 File: imagens/alterar_momento_de_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/alterar_momento_de_avaliacao_i.jpg>
@@ -558,7 +536,7 @@ Package pdftex.def Info: imagens/alterar_momento_de_avaliacao_i.jpg used on inp
 ut line 56.
 (pdftex.def)             Requested size: 410.01079pt x 376.28487pt.
 
-<imagens/cancelar_momento_de_avaliacao_i.jpg, id=473, 410.0118pt x 376.2858pt>
+<imagens/cancelar_momento_de_avaliacao_i.jpg, id=503, 410.0118pt x 376.2858pt>
 File: imagens/cancelar_momento_de_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_momento_de_avaliacao_i.jpg>
@@ -566,22 +544,19 @@ Package pdftex.def Info: imagens/cancelar_momento_de_avaliacao_i.jpg used on in
 put line 63.
 (pdftex.def)             Requested size: 410.01079pt x 376.28487pt.
 
-<imagens/novo_momento_de_avaliacao_i.jpg, id=474, 421.0932pt x 398.4486pt>
+<imagens/novo_momento_de_avaliacao_i.jpg, id=504, 421.0932pt x 398.4486pt>
 File: imagens/novo_momento_de_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/novo_momento_de_avaliacao_i.jpg>
 Package pdftex.def Info: imagens/novo_momento_de_avaliacao_i.jpg used on input 
 line 70.
 (pdftex.def)             Requested size: 421.09216pt x 398.44762pt.
- [21
+ [23
 
- <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/
-relatorio/imagens/alterar_momento_de_avaliacao_i.jpg>] [22 <C:/Users/xU/Desktop
-/enginf/3º ano/Programação Centrada na Rede/Projecto 1/relatorio/imagens/can
-celar_momento_de_avaliacao_i.jpg>] [23 <C:/Users/xU/Desktop/enginf/3º ano/Prog
-ramação Centrada na Rede/Projecto 1/relatorio/imagens/novo_momento_de_avaliac
-ao_i.jpg>]
-<imagens/validar_momento_de_avaliacao_i.jpg, id=487, 404.9529pt x 339.1872pt>
+ <C:/pedro/phppcr/relatorio/imagens/alterar_momento_de_avaliacao_i.jpg>] [24 <C
+:/pedro/phppcr/relatorio/imagens/cancelar_momento_de_avaliacao_i.jpg>] [25 <C:/
+pedro/phppcr/relatorio/imagens/novo_momento_de_avaliacao_i.jpg>]
+<imagens/validar_momento_de_avaliacao_i.jpg, id=518, 404.9529pt x 339.1872pt>
 File: imagens/validar_momento_de_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/validar_momento_de_avaliacao_i.jpg>
@@ -589,7 +564,7 @@ Package pdftex.def Info: imagens/validar_momento_de_avaliacao_i.jpg used on inp
 ut line 81.
 (pdftex.def)             Requested size: 404.9519pt x 339.18637pt.
 
-<imagens/alterar_data_de_momento_de_avaliacao_i.jpg, id=488, 404.9529pt x 450.7
+<imagens/alterar_data_de_momento_de_avaliacao_i.jpg, id=519, 404.9529pt x 450.7
 239pt>
 File: imagens/alterar_data_de_momento_de_avaliacao_i.jpg Graphic file (type jpg
 )
@@ -598,7 +573,7 @@ Package pdftex.def Info: imagens/alterar_data_de_momento_de_avaliacao_i.jpg use
 d on input line 88.
 (pdftex.def)             Requested size: 404.9519pt x 450.7228pt.
 
-<imagens/cancelar_validacao_de_momento_de_avaliacao_i.jpg, id=489, 404.9529pt x
+<imagens/cancelar_validacao_de_momento_de_avaliacao_i.jpg, id=520, 404.9529pt x
  240.4182pt>
 File: imagens/cancelar_validacao_de_momento_de_avaliacao_i.jpg Graphic file (ty
 pe jpg)
@@ -607,15 +582,13 @@ Package pdftex.def Info: imagens/cancelar_validacao_de_momento_de_avaliacao_i.j
 pg used on input line 95.
 (pdftex.def)             Requested size: 404.9519pt x 240.4176pt.
 
-[24
+[26
 
- <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/
-relatorio/imagens/validar_momento_de_avaliacao_i.jpg>] [25 <C:/Users/xU/Desktop
-/enginf/3º ano/Programação Centrada na Rede/Projecto 1/relatorio/imagens/alt
-erar_data_de_momento_de_avaliacao_i.jpg>] [26 <C:/Users/xU/Desktop/enginf/3º a
-no/Programação Centrada na Rede/Projecto 1/relatorio/imagens/cancelar_validac
-ao_de_momento_de_avaliacao_i.jpg>]
-<imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg, id=503, 402.303pt x 498.18
+ <C:/pedro/phppcr/relatorio/imagens/validar_momento_de_avaliacao_i.jpg>]
+[27 <C:/pedro/phppcr/relatorio/imagens/alterar_data_de_momento_de_avaliacao_i.j
+pg>] [28 <C:/pedro/phppcr/relatorio/imagens/cancelar_validacao_de_momento_de_av
+aliacao_i.jpg>]
+<imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg, id=533, 402.303pt x 498.18
 12pt>
 File: imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg Graphic file (type jpg
 )
@@ -624,14 +597,14 @@ Package pdftex.def Info: imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg use
 d on input line 105.
 (pdftex.def)             Requested size: 402.302pt x 498.17998pt.
 
-<imagens/visualizar_momento_de_avaliacao_i.jpg, id=504, 402.303pt x 269.0853pt>
+<imagens/visualizar_momento_de_avaliacao_i.jpg, id=534, 402.303pt x 269.0853pt>
 File: imagens/visualizar_momento_de_avaliacao_i.jpg Graphic file (type jpg)
 <use imagens/visualizar_momento_de_avaliacao_i.jpg>
 Package pdftex.def Info: imagens/visualizar_momento_de_avaliacao_i.jpg used on 
 input line 112.
 (pdftex.def)             Requested size: 402.302pt x 269.08464pt.
 
-<imagens/visualizar_momentos_de_avaliacao_i.jpg, id=505, 406.8801pt x 605.3817p
+<imagens/visualizar_momentos_de_avaliacao_i.jpg, id=535, 406.8801pt x 605.3817p
 t>
 File: imagens/visualizar_momentos_de_avaliacao_i.jpg Graphic file (type jpg)
  <use imagens/visualizar_momentos_de_avaliacao_i.jpg>
@@ -639,17 +612,14 @@ Package pdftex.def Info: imagens/visualizar_momentos_de_avaliacao_i.jpg used on
  input line 119.
 (pdftex.def)             Requested size: 406.8791pt x 605.38022pt.
 )
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\modelacao_da_base_de_dados.tex" [27
+(C:\pedro\phppcr\relatorio\modelacao_da_base_de_dados.tex [29
 
- <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/
-relatorio/imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg>] [28 <C:/Users/xU
-/Desktop/enginf/3º ano/Programação Centrada na Rede/Projecto 1/relatorio/ima
-gens/visualizar_momento_de_avaliacao_i.jpg>] [29 <C:/Users/xU/Desktop/enginf/3�
-� ano/Programação Centrada na Rede/Projecto 1/relatorio/imagens/visualizar_mo
-mentos_de_avaliacao_i.jpg>]
-Cap\'{\i }tulo 4.
-[30
+ <C:/pedro/phppcr/relatorio/imagens/ver_detalhes_de_momento_de_avaliacao_i.jpg>
+] [30 <C:/pedro/phppcr/relatorio/imagens/visualizar_momento_de_avaliacao_i.jpg>
+] [31 <C:/pedro/phppcr/relatorio/imagens/visualizar_momentos_de_avaliacao_i.jpg
+>]
+Cap\'{\i }tulo 5.
+[32
 
 ]
 
@@ -665,10 +635,8 @@ Type  H <return>  for immediate help.
 l.25 \includegraphics{imagens/1.png}
                                     
 ? 
-)
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\modelacao_uml.tex" [31]
-Cap\'{\i }tulo 5.
+) (C:\pedro\phppcr\relatorio\modelacao_uml.tex [33]
+Cap\'{\i }tulo 6.
 
 LaTeX Warning: File `imagens/diagrama_de_classes.jpg' not found on input line 6
 .
@@ -683,59 +651,38 @@ Type  H <return>  for immediate help.
 l.6 ...degraphics{imagens/diagrama_de_classes.jpg}
                                                   
 ? 
-<imagens/login.jpg, id=529, 422.32782pt x 375.65344pt>
+<imagens/login.jpg, id=559, 422.32782pt x 375.65344pt>
 File: imagens/login.jpg Graphic file (type jpg)
  <use imagens/login.jpg>
 Package pdftex.def Info: imagens/login.jpg used on input line 17.
 (pdftex.def)             Requested size: 422.32678pt x 375.65251pt.
 
+<imagens/logout.jpg, id=560, 364.36125pt x 268.75406pt>
+File: imagens/logout.jpg Graphic file (type jpg)
 
-LaTeX Warning: File `imagens/novo_registo.jpg' not found on input line 24.
+<use imagens/logout.jpg>
+Package pdftex.def Info: imagens/logout.jpg used on input line 24.
+(pdftex.def)             Requested size: 364.36035pt x 268.7534pt.
 
+<imagens/listar_entre_datas.jpg, id=561, 564.60938pt x 414.04688pt>
+File: imagens/listar_entre_datas.jpg Graphic file (type jpg)
 
-! Package pdftex.def Error: File `imagens/novo_registo.jpg' not found.
+<use imagens/listar_entre_datas.jpg>
+Package pdftex.def Info: imagens/listar_entre_datas.jpg used on input line 34.
+(pdftex.def)             Requested size: 564.60799pt x 414.04585pt.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 \includegraphics{imagens/novo_registo.jpg}
-                                               
-? 
+Overfull \hbox (109.3639pt too wide) in paragraph at lines 34--35
+ [][] 
+ []
 
-LaTeX Warning: File `imagens/alterar_registo.jpg' not found on input line 31.
+[34
 
-
-! Package pdftex.def Error: File `imagens/alterar_registo.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \includegraphics{imagens/alterar_registo.jpg}
-                                                  
-? 
-
-LaTeX Warning: File `imagens/recuperar_password.jpg' not found on input line 38
-.
-
-
-! Package pdftex.def Error: File `imagens/recuperar_password.jpg' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ...degraphics{imagens/recuperar_password.jpg}
-                                                  
-? 
-[32
-
-] [33 <C:/Users/xU/Desktop/enginf/3º ano/Programação Centrada na Rede/Projec
-to 1/relatorio/imagens/login.jpg>] [34]
+] [35 <C:/pedro/phppcr/relatorio/imagens/login.jpg>] [36 <C:/pedro/phppcr/relat
+orio/imagens/logout.jpg>] [37 <C:/pedro/phppcr/relatorio/imagens/listar_entre_d
+atas.jpg>]
 
 LaTeX Warning: File `imagens/inscrever_em_avaliacao.jpg' not found on input lin
-e 48.
+e 47.
 
 
 ! Package pdftex.def Error: File `imagens/inscrever_em_avaliacao.jpg' not found
@@ -745,11 +692,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...aphics{imagens/inscrever_em_avaliacao.jpg}
+l.47 ...aphics{imagens/inscrever_em_avaliacao.jpg}
                                                   
 ? 
 
-LaTeX Warning: File `imagens/cancelar_inscricao.jpg' not found on input line 55
+LaTeX Warning: File `imagens/cancelar_inscricao.jpg' not found on input line 54
 .
 
 
@@ -759,15 +706,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.55 ...degraphics{imagens/cancelar_inscricao.jpg}
+l.54 ...degraphics{imagens/cancelar_inscricao.jpg}
                                                   
 ? 
-[35
+[38
 
 ]
 
 LaTeX Warning: File `imagens/novo_momento_de_avaliacao.jpg' not found on input 
-line 65.
+line 64.
 
 
 ! Package pdftex.def Error: File `imagens/novo_momento_de_avaliacao.jpg' not fo
@@ -777,12 +724,12 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...ics{imagens/novo_momento_de_avaliacao.jpg}
+l.64 ...ics{imagens/novo_momento_de_avaliacao.jpg}
                                                   
 ? 
 
 LaTeX Warning: File `imagens/alterar_momento_de_avaliacao.jpg' not found on inp
-ut line 72.
+ut line 71.
 
 
 ! Package pdftex.def Error: File `imagens/alterar_momento_de_avaliacao.jpg' not
@@ -792,12 +739,12 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 ...{imagens/alterar_momento_de_avaliacao.jpg}
+l.71 ...{imagens/alterar_momento_de_avaliacao.jpg}
                                                   
 ? 
 
 LaTeX Warning: File `imagens/cancelar_momento_de_avaliacao.jpg' not found on in
-put line 79.
+put line 78.
 
 
 ! Package pdftex.def Error: File `imagens/cancelar_momento_de_avaliacao.jpg' no
@@ -807,14 +754,14 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...imagens/cancelar_momento_de_avaliacao.jpg}
+l.78 ...imagens/cancelar_momento_de_avaliacao.jpg}
                                                   
 ? 
-[36
+[39
 
 ]
 
-LaTeX Warning: File `imagens/validar_avaliacao.jpg' not found on input line 90.
+LaTeX Warning: File `imagens/validar_avaliacao.jpg' not found on input line 89.
 
 
 
@@ -824,11 +771,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 ...udegraphics{imagens/validar_avaliacao.jpg}
+l.89 ...udegraphics{imagens/validar_avaliacao.jpg}
                                                   
 ? 
 
-LaTeX Warning: File `imagens/cancelar_validacao.jpg' not found on input line 97
+LaTeX Warning: File `imagens/cancelar_validacao.jpg' not found on input line 96
 .
 
 
@@ -838,11 +785,11 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 ...degraphics{imagens/cancelar_validacao.jpg}
+l.96 ...degraphics{imagens/cancelar_validacao.jpg}
                                                   
 ? 
 
-LaTeX Warning: File `imagens/alterar_data.jpg' not found on input line 104.
+LaTeX Warning: File `imagens/alterar_data.jpg' not found on input line 103.
 
 
 ! Package pdftex.def Error: File `imagens/alterar_data.jpg' not found.
@@ -851,15 +798,15 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104 \includegraphics{imagens/alterar_data.jpg}
+l.103 \includegraphics{imagens/alterar_data.jpg}
                                                 
 ? 
-[37
+[40
 
 ]
 
 LaTeX Warning: File `imagens/visualizar_momentos_de_avaliacao.jpg' not found on
- input line 115.
+ input line 114.
 
 
 ! Package pdftex.def Error: File `imagens/visualizar_momentos_de_avaliacao.jpg'
@@ -869,12 +816,12 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 ...ens/visualizar_momentos_de_avaliacao.jpg}
+l.114 ...ens/visualizar_momentos_de_avaliacao.jpg}
                                                   
 ? 
 
 LaTeX Warning: File `imagens/visualizar_momento_de_avaliacao.jpg' not found on 
-input line 123.
+input line 122.
 
 
 ! Package pdftex.def Error: File `imagens/visualizar_momento_de_avaliacao.jpg' 
@@ -884,12 +831,12 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.123 ...gens/visualizar_momento_de_avaliacao.jpg}
+l.122 ...gens/visualizar_momento_de_avaliacao.jpg}
                                                   
 ? 
 
 LaTeX Warning: File `imagens/visualizar_detalhes_de_momento_de_avaliacao.jpg' n
-ot found on input line 130.
+ot found on input line 129.
 
 
 ! Package pdftex.def Error: File `imagens/visualizar_detalhes_de_momento_de_ava
@@ -899,83 +846,55 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ...zar_detalhes_de_momento_de_avaliacao.jpg}
+l.129 ...zar_detalhes_de_momento_de_avaliacao.jpg}
                                                   
 ? 
-)
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\conclusoes.tex" [38
+) (C:\pedro\phppcr\relatorio\conclusoes.tex [41
 
 ]
-Cap\'{\i }tulo 6.
+Cap\'{\i }tulo 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
- [39
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+ [42
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+ (C:\pedro\phppcr\relatorio\relatorio.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package rerunfilecheck Info: File `relatorio.out' has not changed.
+(rerunfilecheck)             Checksum: E019A6CCD5A6F1D73C66A32089415135;4186.
 
-("C:\Users\xU\Desktop\enginf\3º ano\Programação Centrada na Rede\Projecto 1\
-relatorio\relatorio.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
-
-
-Package rerunfilecheck Warning: File `relatorio.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `relatorio.out':
-(rerunfilecheck)             Before: 3D16B69D53D4957E185EB0F7406A43A2;3958
-(rerunfilecheck)             After:  E37DB1C6087DD7FE8EAB4BAAFB3E1004;3774.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
- 9367 strings out of 493921
- 146572 string characters out of 3147292
- 495871 words of memory out of 3000000
- 12332 multiletter control sequences out of 15000+200000
+ 9386 strings out of 493921
+ 144447 string characters out of 3147292
+ 496871 words of memory out of 3000000
+ 12342 multiletter control sequences out of 15000+200000
  18696 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  38i,6n,40p,652b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.53} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.52} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.2.6} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.2.1.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8ac.pfb>
-Output written on relatorio.pdf (39 pages, 7076411 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8ac.pfb>
+Output written on relatorio.pdf (42 pages, 7211194 bytes).
 PDF statistics:
- 630 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 531 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 666 PDF objects out of 1000 (max. 8388607)
+ 155 named destinations out of 1000 (max. 500000)
+ 573 words of extra memory for PDF output out of 10000 (max. 10000000)
 
