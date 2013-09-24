@@ -21,39 +21,31 @@
 \BOOKMARK [2][]{subsection.3.2.3}{Actores}{section.3.2}% 21
 \BOOKMARK [2][]{subsection.3.2.4}{Cen\341rio Principal}{section.3.2}% 22
 \BOOKMARK [2][]{subsection.3.2.5}{Extens\365es ou Varia\347\365es}{section.3.2}% 23
-\BOOKMARK [1][]{section.3.3}{GERIR MOMENTO DE AVALIA\307\303O}{chapter.3}% 24
+\BOOKMARK [1][]{section.3.3}{VALIDAR AVALIA\307\325ES}{chapter.3}% 24
 \BOOKMARK [2][]{subsection.3.3.1}{Descri\347\343o}{section.3.3}% 25
 \BOOKMARK [2][]{subsection.3.3.2}{Pr\351-condi\347\365es}{section.3.3}% 26
 \BOOKMARK [2][]{subsection.3.3.3}{Actores}{section.3.3}% 27
 \BOOKMARK [2][]{subsection.3.3.4}{Cen\341rio Principal}{section.3.3}% 28
 \BOOKMARK [2][]{subsection.3.3.5}{Extens\365es ou Varia\347\365es}{section.3.3}% 29
-\BOOKMARK [1][]{section.3.4}{VALIDAR AVALIA\307\325ES}{chapter.3}% 30
+\BOOKMARK [1][]{section.3.4}{MARCAR AVALIA\307\303O}{chapter.3}% 30
 \BOOKMARK [2][]{subsection.3.4.1}{Descri\347\343o}{section.3.4}% 31
 \BOOKMARK [2][]{subsection.3.4.2}{Pr\351-condi\347\365es}{section.3.4}% 32
-\BOOKMARK [2][]{subsection.3.4.3}{Situa\347\365es de Falha}{section.3.4}% 33
-\BOOKMARK [2][]{subsection.3.4.4}{Actores}{section.3.4}% 34
-\BOOKMARK [2][]{subsection.3.4.5}{Cen\341rio Principal}{section.3.4}% 35
-\BOOKMARK [2][]{subsection.3.4.6}{Extens\365es ou Varia\347\365es}{section.3.4}% 36
-\BOOKMARK [1][]{section.3.5}{VISUALIZAR MOMENTO DE AVALIA\307\303O}{chapter.3}% 37
-\BOOKMARK [2][]{subsection.3.5.1}{Descri\347\343o}{section.3.5}% 38
-\BOOKMARK [2][]{subsection.3.5.2}{Pr\351-condi\347\365es}{section.3.5}% 39
-\BOOKMARK [2][]{subsection.3.5.3}{Actores}{section.3.5}% 40
-\BOOKMARK [2][]{subsection.3.5.4}{Cen\341rio Principal}{section.3.5}% 41
-\BOOKMARK [2][]{subsection.3.5.5}{Extens\365es ou Varia\347\365es}{section.3.5}% 42
-\BOOKMARK [0][]{chapter.4}{Modela\347\343o de Interfaces}{}% 43
-\BOOKMARK [1][]{section.4.1}{Efectuar Login}{chapter.4}% 44
-\BOOKMARK [1][]{section.4.2}{Gerir Inscri\347\343o em Momento de Avalia\347\343o}{chapter.4}% 45
-\BOOKMARK [1][]{section.4.3}{Gerir Momento de Avalia\347\343o}{chapter.4}% 46
-\BOOKMARK [1][]{section.4.4}{Validar Momentos de Avalia\347\343o}{chapter.4}% 47
-\BOOKMARK [1][]{section.4.5}{Visualizar Momento de Avalia\347\343o}{chapter.4}% 48
-\BOOKMARK [0][]{chapter.5}{Modela\347\343o da Base de Dados}{}% 49
-\BOOKMARK [0][]{chapter.6}{Modela\347\343o UML}{}% 50
-\BOOKMARK [1][]{section.6.1}{Diagrama de Classes}{chapter.6}% 51
-\BOOKMARK [1][]{section.6.2}{Diagramas de Sequ\352ncia}{chapter.6}% 52
-\BOOKMARK [2][]{subsection.6.2.1}{Efectuar Login}{section.6.2}% 53
-\BOOKMARK [2][]{subsection.6.2.2}{Listar Avalia\347\365es}{section.6.2}% 54
-\BOOKMARK [2][]{subsection.6.2.3}{Gerir Inscri\347\343o em Momento de Avalia\347\343o}{section.6.2}% 55
-\BOOKMARK [2][]{subsection.6.2.4}{Gerir Momento de Avalia\347\343o}{section.6.2}% 56
-\BOOKMARK [2][]{subsection.6.2.5}{Validar Avalia\347\365es}{section.6.2}% 57
-\BOOKMARK [2][]{subsection.6.2.6}{Visualizar Momento de Avalia\347\343o}{section.6.2}% 58
-\BOOKMARK [0][]{chapter.7}{Conclus\343o}{}% 59
+\BOOKMARK [2][]{subsection.3.4.3}{Actores}{section.3.4}% 33
+\BOOKMARK [2][]{subsection.3.4.4}{Cen\341rio Principal}{section.3.4}% 34
+\BOOKMARK [2][]{subsection.3.4.5}{Extens\365es ou Varia\347\365es}{section.3.4}% 35
+\BOOKMARK [1][]{section.3.5}{INSCREVER EM AVALIA\307\303O}{chapter.3}% 36
+\BOOKMARK [2][]{subsection.3.5.1}{Descri\347\343o}{section.3.5}% 37
+\BOOKMARK [2][]{subsection.3.5.2}{Pr\351-condi\347\365es}{section.3.5}% 38
+\BOOKMARK [2][]{subsection.3.5.3}{Actores}{section.3.5}% 39
+\BOOKMARK [2][]{subsection.3.5.4}{Cen\341rio Principal}{section.3.5}% 40
+\BOOKMARK [2][]{subsection.3.5.5}{Extens\365es ou Varia\347\365es}{section.3.5}% 41
+\BOOKMARK [0][]{chapter.4}{Modela\347\343o da Base de Dados}{}% 42
+\BOOKMARK [0][]{chapter.5}{Modela\347\343o UML}{}% 43
+\BOOKMARK [1][]{section.5.1}{Diagrama de Classes}{chapter.5}% 44
+\BOOKMARK [1][]{section.5.2}{Diagramas de Sequ\352ncia}{chapter.5}% 45
+\BOOKMARK [2][]{subsection.5.2.1}{Efectuar Login}{section.5.2}% 46
+\BOOKMARK [2][]{subsection.5.2.2}{Listar Avalia\347\365es}{section.5.2}% 47
+\BOOKMARK [2][]{subsection.5.2.3}{Inscri\347\343o em Avalia\347\343o}{section.5.2}% 48
+\BOOKMARK [2][]{subsection.5.2.4}{Marcar Avalia\347\343o}{section.5.2}% 49
+\BOOKMARK [2][]{subsection.5.2.5}{Validar Avalia\347\365es}{section.5.2}% 50
+\BOOKMARK [0][]{chapter.6}{Conclus\343o}{}% 51
