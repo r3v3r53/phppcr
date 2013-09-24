@@ -1,0 +1,51 @@
+\section{MARCAR AVALIAÇÃO}
+\subsection{Descrição} 
+O docente pode criar, alterar e cancelar momentos de avaliação para as disciplinas em que seja docente.
+
+\subsection{Pré-condições}
+Apenas é possível criar momentos de avaliação para as disciplinas em que o docente esteja associado.
+
+\subsection{Actores} 
+Docente 
+
+\subsection{Cenário Principal}
+ \prettyref{fig:nova_avaliacao} 
+ \subsubsection{Novo Momento de Avaliação}
+O Docente:
+
+1. Escolhe criar um novo momento de avaliação.
+
+2. Caso tenha já preenchido o formulário:
+
+2.1 O sistema cria a nova avaliação
+
+2.2 O sistema actualiza o calendário
+
+2.3 O sistema apresenta o calendário
+
+3. Caso não tenha preenchido o formulário:
+
+3.1 O sistema obtem a lista de disciplinas leccionadas pelo docente
+
+3.2 O sistema apresenta o formulário para que o docente crie a nova avaliação para uma das disciplinas por ele leccionadas
+
+
+
+
+\subsection{Extensões ou Variações} 
+ \prettyref{fig:cancelar_avaliacao}
+\subsubsection{Cancelar Momento de Avaliação}
+
+O Docente:
+
+1. Escolhe o dia em que está marcada a Avaliação.
+
+2. O sistema apresenta os detalhes da avaliação.
+
+3. O Docente escolhe cancelar avaliação.
+
+4. O sistema cancela a avaliação.
+
+5. O sistema actualiza o calendário
+
+6. O sistema apresenta o calendário actualizado

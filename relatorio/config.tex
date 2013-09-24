@@ -48,9 +48,9 @@ linkcolor=rltblue,               % \ref{...} and \pageref{...}
 menucolor=webdarkblue,
 citecolor=webbrightgreen,
 pdftitle={Relatorio},
-pdfauthor={Pedro Moreira, Joao Alturas},
+pdfauthor={Pedro Moreira},
 pdfsubject={Programação Centrada na Rede},
-pdfkeywords={UML, Diagrama de Classes, Diagrama de Sequencia, Interface, PHP, ASP, usabilidade, acessibilidade, html},
+pdfkeywords={UML, Diagrama de Classes, Diagrama de Sequencia, Interface, PHP, usabilidade, acessibilidade, html, smarty, mySQL},
 pagebackref=false,
 pdfpagemode=None,
 bookmarksopen=true]{hyperref}
@@ -92,10 +92,12 @@ bookmarksopen=true]{hyperref}
 
 
 \title{Programação Centrada na Rede}
-\author{Pedro Moreira, João Alturas}
-\date{Abril, 9, 2013}
+\author{Pedro Moreira}
+\usepackage{datetime}
+\newdate{date}{23}{09}{2013}
+\date{\displaydate{date}}
 
-\usepackage{listings}
+%\usepackage{listings}
 \usepackage{color}
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}

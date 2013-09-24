@@ -32,50 +32,39 @@
 \contentsline {subsubsection}{Listar avalia\IeC {\c c}\IeC {\~o}es entre datas}{13}{section*.12}
 \contentsline {subsection}{\numberline {3.2.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{13}{subsection.3.2.5}
 \contentsline {subsubsection}{Listar detalhes de avalia\IeC {\c c}\IeC {\~o}es}{13}{section*.13}
-\contentsline {section}{\numberline {3.3}GERIR MOMENTO DE AVALIA\IeC {\c C}\IeC {\~A}O}{14}{section.3.3}
+\contentsline {section}{\numberline {3.3}VALIDAR AVALIA\IeC {\c C}\IeC {\~O}ES}{14}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Descri\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}Actores}{14}{subsection.3.3.3}
 \contentsline {subsection}{\numberline {3.3.4}Cen\IeC {\'a}rio Principal}{14}{subsection.3.3.4}
-\contentsline {subsubsection}{Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o}{14}{section*.14}
-\contentsline {subsection}{\numberline {3.3.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{15}{subsection.3.3.5}
-\contentsline {subsubsection}{Alterar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.15}
-\contentsline {subsubsection}{Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.16}
-\contentsline {section}{\numberline {3.4}VALIDAR AVALIA\IeC {\c C}\IeC {\~O}ES}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Descri\IeC {\c c}\IeC {\~a}o}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Situa\IeC {\c c}\IeC {\~o}es de Falha}{16}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Actores}{16}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Cen\IeC {\'a}rio Principal}{16}{subsection.3.4.5}
-\contentsline {subsubsection}{Validar Avalia\IeC {\c c}\IeC {\~a}o}{16}{section*.17}
-\contentsline {subsection}{\numberline {3.4.6}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.4.6}
-\contentsline {subsubsection}{Cancelar Valida\IeC {\c c}\IeC {\~a}o}{16}{section*.18}
-\contentsline {subsubsection}{Alterar data de Momento de Avalia\IeC {\c c}\IeC {\~a}o}{17}{section*.19}
-\contentsline {section}{\numberline {3.5}VISUALIZAR MOMENTO DE AVALIA\IeC {\c C}\IeC {\~A}O}{17}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Descri\IeC {\c c}\IeC {\~a}o}{17}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{17}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Actores}{17}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Cen\IeC {\'a}rio Principal}{17}{subsection.3.5.4}
-\contentsline {subsubsection}{Visualizar Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{17}{section*.20}
-\contentsline {subsection}{\numberline {3.5.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{18}{subsection.3.5.5}
-\contentsline {subsubsection}{Visualizar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{18}{section*.21}
-\contentsline {subsubsection}{Ver Detalhes de Momento de Avalia\IeC {\c c}\IeC {\~a}o}{18}{section*.22}
-\contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o de Interfaces}{19}{chapter.4}
-\contentsline {section}{\numberline {4.1}Efectuar Login}{19}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gerir Inscri\IeC {\c c}\IeC {\~a}o em Momento de Avalia\IeC {\c c}\IeC {\~a}o}{22}{section.4.2}
-\contentsline {section}{\numberline {4.3}Gerir Momento de Avalia\IeC {\c c}\IeC {\~a}o}{23}{section.4.3}
-\contentsline {section}{\numberline {4.4}Validar Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{26}{section.4.4}
-\contentsline {section}{\numberline {4.5}Visualizar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{29}{section.4.5}
-\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{32}{chapter.5}
-\contentsline {paragraph}{}{32}{section*.38}
-\contentsline {chapter}{\numberline {6}Modela\IeC {\c c}\IeC {\~a}o UML}{34}{chapter.6}
-\contentsline {section}{\numberline {6.1}Diagrama de Classes}{34}{section.6.1}
-\contentsline {section}{\numberline {6.2}Diagramas de Sequ\IeC {\^e}ncia}{34}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Efectuar Login}{34}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{34}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Gerir Inscri\IeC {\c c}\IeC {\~a}o em Momento de Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Gerir Momento de Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{40}{subsection.6.2.5}
-\contentsline {subsection}{\numberline {6.2.6}Visualizar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{41}{subsection.6.2.6}
-\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{42}{chapter.7}
-\contentsline {paragraph}{}{42}{section*.55}
+\contentsline {subsubsection}{Validar Avalia\IeC {\c c}\IeC {\~a}o}{14}{section*.14}
+\contentsline {subsection}{\numberline {3.3.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.3.5}
+\contentsline {subsubsection}{Cancelar Valida\IeC {\c c}\IeC {\~a}o}{14}{section*.15}
+\contentsline {section}{\numberline {3.4}MARCAR AVALIA\IeC {\c C}\IeC {\~A}O}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Descri\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{15}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Actores}{15}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Cen\IeC {\'a}rio Principal}{15}{subsection.3.4.4}
+\contentsline {subsubsection}{Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.16}
+\contentsline {subsection}{\numberline {3.4.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{15}{subsection.3.4.5}
+\contentsline {subsubsection}{Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.17}
+\contentsline {section}{\numberline {3.5}INSCREVER EM AVALIA\IeC {\c C}\IeC {\~A}O}{16}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Descri\IeC {\c c}\IeC {\~a}o}{16}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Actores}{16}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Cen\IeC {\'a}rio Principal}{16}{subsection.3.5.4}
+\contentsline {subsubsection}{Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{16}{section*.18}
+\contentsline {subsection}{\numberline {3.5.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.5.5}
+\contentsline {subsubsection}{Cancelar Inscri\IeC {\c c}\IeC {\~a}o}{16}{section*.19}
+\contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{17}{chapter.4}
+\contentsline {paragraph}{}{17}{section*.20}
+\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o UML}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Diagrama de Classes}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}Diagramas de Sequ\IeC {\^e}ncia}{19}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Efectuar Login}{19}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{23}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{25}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{27}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{29}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{31}{chapter.6}
+\contentsline {paragraph}{}{31}{section*.33}
