@@ -1,6 +1,6 @@
 \select@language {portuges}
 \contentsline {chapter}{\IeC {\'I}ndice Geral}{3}{Doc-Start}
-\contentsline {chapter}{Lista de Figuras}{4}{chapter*.1}
+\contentsline {chapter}{Lista de Figuras}{5}{chapter*.1}
 \contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{7}{chapter.1}
 \contentsline {paragraph}{}{7}{section*.3}
 \contentsline {section}{\numberline {1.1}Objectivos}{7}{section.1.1}
@@ -58,12 +58,12 @@
 \contentsline {subsubsection}{Cancelar Inscri\IeC {\c c}\IeC {\~a}o}{16}{section*.19}
 \contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o de Interfaces}{17}{chapter.4}
 \contentsline {section}{\numberline {4.1}Efectuar Login}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Gerir Inscri\IeC {\c c}\IeC {\~a}o em Momento de Avalia\IeC {\c c}\IeC {\~a}o}{18}{section.4.2}
-\contentsline {section}{\numberline {4.3}Marcar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{19}{section.4.3}
-\contentsline {section}{\numberline {4.4}Validar Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{20}{section.4.4}
+\contentsline {section}{\numberline {4.2}Inscrever em Momento de Avalia\IeC {\c c}\IeC {\~a}o}{18}{section.4.2}
+\contentsline {section}{\numberline {4.3}Marcar e Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}Validar e Cancelar Valida\IeC {\c c}\IeC {\~a}o de Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{20}{section.4.4}
 \contentsline {section}{\numberline {4.5}Listar Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{21}{section.4.5}
 \contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{22}{chapter.5}
-\contentsline {paragraph}{}{22}{section*.28}
+\contentsline {paragraph}{}{22}{section*.24}
 \contentsline {chapter}{\numberline {6}Modela\IeC {\c c}\IeC {\~a}o UML}{25}{chapter.6}
 \contentsline {section}{\numberline {6.1}Diagrama de Classes}{25}{section.6.1}
 \contentsline {section}{\numberline {6.2}Diagramas de Sequ\IeC {\^e}ncia}{25}{section.6.2}
@@ -87,4 +87,4 @@
 \contentsline {subsection}{\numberline {7.3.9}Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.9}
 \contentsline {subsection}{\numberline {7.3.10}Cancelar Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.10}
 \contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{39}{chapter.8}
-\contentsline {paragraph}{}{39}{section*.41}
+\contentsline {paragraph}{}{39}{section*.37}
