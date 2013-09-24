@@ -58,13 +58,13 @@
 \contentsline {subsubsection}{Cancelar Inscri\IeC {\c c}\IeC {\~a}o}{16}{section*.19}
 \contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{17}{chapter.4}
 \contentsline {paragraph}{}{17}{section*.20}
-\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o UML}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Diagrama de Classes}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Diagramas de Sequ\IeC {\^e}ncia}{19}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Efectuar Login}{19}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{23}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{25}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{27}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{29}{subsection.5.2.5}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{31}{chapter.6}
-\contentsline {paragraph}{}{31}{section*.33}
+\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o UML}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Diagrama de Classes}{20}{section.5.1}
+\contentsline {section}{\numberline {5.2}Diagramas de Sequ\IeC {\^e}ncia}{20}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Efectuar Login}{20}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{24}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{26}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{28}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{30}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{32}{chapter.6}
+\contentsline {paragraph}{}{32}{section*.33}

@@ -20,9 +20,20 @@ Resumidamente a base de dados está representada da seguinte forma:
 \item \textbf{avaliacao\_aluno} - Representa a inscrição de um aluno numa avaliação e é onde fica registada a sua nota
 \end{list}
 
+\begin{list}{\textbf{-}}{\textbf{STORED PROCEDURES}}
+\item \textbf{get_coordinator_evaluations} - Obter lista de avaliações com o perfil de coordenador de um determinado utilizador
+\item \textbf{get_teacher_evaluations} - Obter lista de avaliações com o perfil de docente de um determinado utilizador
+\item \textbf{get_student_evaluations} - Obter lista de avaliações com o perfil de aluno de um determinado utilizador
+\item \textbf{get_cursos_user} - Obter lista de cursos a que utilizador esteja associado
+\item \textbf{get_coordinator_disciplines} - Obter lista de disciplinas com o perfil de coordenador de um determinado utilizador
+\item \textbf{get_teacher_disciplines} - Obter lista de disciplinas com o perfil de docente de um determinado utilizador
+\item \textbf{get_student_disciplines} - Obter lista de disciplinas com o perfil de aluno de um determinado utilizador
+\item \textbf{add_evaluation} - Adicionar uma avaliação a uma determinada disciplina
+\end{list}
+
 \begin{figure}[!htbp]
 \centering
-\includegraphics{imagens/1.png}
+\includegraphics{imagens/base_de_dados.png}
 \caption{Base de Dados: Modelo Físico}
 \label{fig:modelo_fisico}
 \end{figure}
