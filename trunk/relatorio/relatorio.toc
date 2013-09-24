@@ -1,70 +1,70 @@
 \select@language {portuges}
 \contentsline {chapter}{\IeC {\'I}ndice Geral}{3}{Doc-Start}
-\contentsline {chapter}{Lista de Figuras}{4}{chapter*.1}
-\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{7}{chapter.1}
-\contentsline {paragraph}{}{7}{section*.3}
-\contentsline {section}{\numberline {1.1}Objectivos}{7}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problema}{7}{section.1.2}
-\contentsline {section}{\numberline {1.3}Solu\IeC {\c c}\IeC {\~a}o}{7}{section.1.3}
-\contentsline {chapter}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o Geral}{9}{chapter.2}
-\contentsline {paragraph}{}{9}{section*.4}
-\contentsline {section}{\numberline {2.1}Perspectiva}{9}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Interfaces}{9}{subsection.2.1.1}
-\contentsline {subsubsection}{Sistema}{9}{section*.5}
-\contentsline {subsubsection}{Utilizador}{9}{section*.6}
-\contentsline {subsubsection}{Software}{9}{section*.7}
-\contentsline {subsection}{\numberline {2.1.2}Fun\IeC {\c c}\IeC {\~o}es}{9}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Caracter\IeC {\'\i }sticas do Utilizador}{10}{subsection.2.1.3}
-\contentsline {chapter}{\numberline {3}Diagrama de Casos de Uso}{11}{chapter.3}
-\contentsline {paragraph}{}{11}{section*.8}
-\contentsline {section}{\numberline {3.1}EFECTUAR LOGIN}{11}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Descri\IeC {\c c}\IeC {\~a}o}{11}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Actores}{11}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Cen\IeC {\'a}rio Principal}{11}{subsection.3.1.3}
-\contentsline {subsubsection}{Login}{11}{section*.10}
-\contentsline {subsection}{\numberline {3.1.4}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{12}{subsection.3.1.4}
-\contentsline {subsubsection}{Logout}{12}{section*.11}
-\contentsline {section}{\numberline {3.2}LISTAR AVALIA\IeC {\c C}\IeC {\~O}ES}{13}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Descri\IeC {\c c}\IeC {\~a}o}{13}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{13}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Actores}{13}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Cen\IeC {\'a}rio Principal}{13}{subsection.3.2.4}
-\contentsline {subsubsection}{Listar avalia\IeC {\c c}\IeC {\~o}es entre datas}{13}{section*.12}
-\contentsline {subsection}{\numberline {3.2.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{13}{subsection.3.2.5}
-\contentsline {subsubsection}{Listar detalhes de avalia\IeC {\c c}\IeC {\~o}es}{13}{section*.13}
-\contentsline {section}{\numberline {3.3}VALIDAR AVALIA\IeC {\c C}\IeC {\~O}ES}{14}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Descri\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Actores}{14}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Cen\IeC {\'a}rio Principal}{14}{subsection.3.3.4}
-\contentsline {subsubsection}{Validar Avalia\IeC {\c c}\IeC {\~a}o}{14}{section*.14}
-\contentsline {subsection}{\numberline {3.3.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.3.5}
-\contentsline {subsubsection}{Cancelar Valida\IeC {\c c}\IeC {\~a}o}{14}{section*.15}
-\contentsline {section}{\numberline {3.4}MARCAR AVALIA\IeC {\c C}\IeC {\~A}O}{14}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Descri\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{15}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Actores}{15}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}Cen\IeC {\'a}rio Principal}{15}{subsection.3.4.4}
-\contentsline {subsubsection}{Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.16}
-\contentsline {subsection}{\numberline {3.4.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{15}{subsection.3.4.5}
-\contentsline {subsubsection}{Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{15}{section*.17}
-\contentsline {section}{\numberline {3.5}INSCREVER EM AVALIA\IeC {\c C}\IeC {\~A}O}{16}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Descri\IeC {\c c}\IeC {\~a}o}{16}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Actores}{16}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}Cen\IeC {\'a}rio Principal}{16}{subsection.3.5.4}
-\contentsline {subsubsection}{Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{16}{section*.18}
-\contentsline {subsection}{\numberline {3.5.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{16}{subsection.3.5.5}
-\contentsline {subsubsection}{Cancelar Inscri\IeC {\c c}\IeC {\~a}o}{16}{section*.19}
-\contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{17}{chapter.4}
-\contentsline {paragraph}{}{17}{section*.20}
-\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o UML}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}Diagrama de Classes}{20}{section.5.1}
-\contentsline {section}{\numberline {5.2}Diagramas de Sequ\IeC {\^e}ncia}{20}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Efectuar Login}{20}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{24}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{26}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{28}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{30}{subsection.5.2.5}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{32}{chapter.6}
-\contentsline {paragraph}{}{32}{section*.33}
+\contentsline {chapter}{Lista de Figuras}{3}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{5}{chapter.1}
+\contentsline {paragraph}{}{5}{section*.3}
+\contentsline {section}{\numberline {1.1}Objectivos}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problema}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Solu\IeC {\c c}\IeC {\~a}o}{5}{section.1.3}
+\contentsline {chapter}{\numberline {2}Descri\IeC {\c c}\IeC {\~a}o Geral}{7}{chapter.2}
+\contentsline {paragraph}{}{7}{section*.4}
+\contentsline {section}{\numberline {2.1}Perspectiva}{7}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Interfaces}{7}{subsection.2.1.1}
+\contentsline {subsubsection}{Sistema}{7}{section*.5}
+\contentsline {subsubsection}{Utilizador}{7}{section*.6}
+\contentsline {subsubsection}{Software}{7}{section*.7}
+\contentsline {subsection}{\numberline {2.1.2}Fun\IeC {\c c}\IeC {\~o}es}{7}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Caracter\IeC {\'\i }sticas do Utilizador}{8}{subsection.2.1.3}
+\contentsline {chapter}{\numberline {3}Diagrama de Casos de Uso}{9}{chapter.3}
+\contentsline {paragraph}{}{9}{section*.8}
+\contentsline {section}{\numberline {3.1}EFECTUAR LOGIN}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Descri\IeC {\c c}\IeC {\~a}o}{9}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Actores}{9}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Cen\IeC {\'a}rio Principal}{9}{subsection.3.1.3}
+\contentsline {subsubsection}{Login}{9}{section*.10}
+\contentsline {subsection}{\numberline {3.1.4}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{10}{subsection.3.1.4}
+\contentsline {subsubsection}{Logout}{10}{section*.11}
+\contentsline {section}{\numberline {3.2}LISTAR AVALIA\IeC {\c C}\IeC {\~O}ES}{11}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Descri\IeC {\c c}\IeC {\~a}o}{11}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{11}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Actores}{11}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Cen\IeC {\'a}rio Principal}{11}{subsection.3.2.4}
+\contentsline {subsubsection}{Listar avalia\IeC {\c c}\IeC {\~o}es entre datas}{11}{section*.12}
+\contentsline {subsection}{\numberline {3.2.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{11}{subsection.3.2.5}
+\contentsline {subsubsection}{Listar detalhes de avalia\IeC {\c c}\IeC {\~o}es}{11}{section*.13}
+\contentsline {section}{\numberline {3.3}VALIDAR AVALIA\IeC {\c C}\IeC {\~O}ES}{12}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Descri\IeC {\c c}\IeC {\~a}o}{12}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{12}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Actores}{12}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Cen\IeC {\'a}rio Principal}{12}{subsection.3.3.4}
+\contentsline {subsubsection}{Validar Avalia\IeC {\c c}\IeC {\~a}o}{12}{section*.14}
+\contentsline {subsection}{\numberline {3.3.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{12}{subsection.3.3.5}
+\contentsline {subsubsection}{Cancelar Valida\IeC {\c c}\IeC {\~a}o}{12}{section*.15}
+\contentsline {section}{\numberline {3.4}MARCAR AVALIA\IeC {\c C}\IeC {\~A}O}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Descri\IeC {\c c}\IeC {\~a}o}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{13}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Actores}{13}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}Cen\IeC {\'a}rio Principal}{13}{subsection.3.4.4}
+\contentsline {subsubsection}{Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o}{13}{section*.16}
+\contentsline {subsection}{\numberline {3.4.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{13}{subsection.3.4.5}
+\contentsline {subsubsection}{Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o}{13}{section*.17}
+\contentsline {section}{\numberline {3.5}INSCREVER EM AVALIA\IeC {\c C}\IeC {\~A}O}{14}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Descri\IeC {\c c}\IeC {\~a}o}{14}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Pr\IeC {\'e}-condi\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Actores}{14}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}Cen\IeC {\'a}rio Principal}{14}{subsection.3.5.4}
+\contentsline {subsubsection}{Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{14}{section*.18}
+\contentsline {subsection}{\numberline {3.5.5}Extens\IeC {\~o}es ou Varia\IeC {\c c}\IeC {\~o}es}{14}{subsection.3.5.5}
+\contentsline {subsubsection}{Cancelar Inscri\IeC {\c c}\IeC {\~a}o}{14}{section*.19}
+\contentsline {chapter}{\numberline {4}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{15}{chapter.4}
+\contentsline {paragraph}{}{15}{section*.20}
+\contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o UML}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Diagrama de Classes}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Diagramas de Sequ\IeC {\^e}ncia}{18}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Efectuar Login}{18}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{22}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{24}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{26}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{28}{subsection.5.2.5}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{30}{chapter.6}
+\contentsline {paragraph}{}{30}{section*.33}

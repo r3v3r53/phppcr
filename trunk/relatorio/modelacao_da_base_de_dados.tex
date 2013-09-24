@@ -21,14 +21,14 @@ Resumidamente a base de dados está representada da seguinte forma:
 \end{list}
 
 \begin{list}{\textbf{-}}{\textbf{STORED PROCEDURES}}
-\item \textbf{get_coordinator_evaluations} - Obter lista de avaliações com o perfil de coordenador de um determinado utilizador
-\item \textbf{get_teacher_evaluations} - Obter lista de avaliações com o perfil de docente de um determinado utilizador
-\item \textbf{get_student_evaluations} - Obter lista de avaliações com o perfil de aluno de um determinado utilizador
-\item \textbf{get_cursos_user} - Obter lista de cursos a que utilizador esteja associado
-\item \textbf{get_coordinator_disciplines} - Obter lista de disciplinas com o perfil de coordenador de um determinado utilizador
-\item \textbf{get_teacher_disciplines} - Obter lista de disciplinas com o perfil de docente de um determinado utilizador
-\item \textbf{get_student_disciplines} - Obter lista de disciplinas com o perfil de aluno de um determinado utilizador
-\item \textbf{add_evaluation} - Adicionar uma avaliação a uma determinada disciplina
+\item \textbf{get\_coordinator\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de coordenador de um determinado utilizador
+\item \textbf{get\_teacher\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de docente de um determinado utilizador
+\item \textbf{get\_student\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de aluno de um determinado utilizador
+\item \textbf{get\_cursos\_user( user\_num )} - Obter lista de cursos a que utilizador esteja associado
+\item \textbf{get\_coordinator\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de coordenador de um determinado utilizador
+\item \textbf{get\_teacher\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de docente de um determinado utilizador
+\item \textbf{get\_student\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de aluno de um determinado utilizador
+\item \textbf{add\_evaluation( user\_num, discipline\_id, date, weight, classroom, type, observations )} - Adicionar uma avaliação a uma determinada disciplina
 \end{list}
 
 \begin{figure}[!htbp]
