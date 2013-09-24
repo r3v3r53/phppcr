@@ -41,9 +41,9 @@
 \BOOKMARK [2][]{subsection.3.5.5}{Extens\365es ou Varia\347\365es}{section.3.5}% 41
 \BOOKMARK [0][]{chapter.4}{Modela\347\343o de Interfaces}{}% 42
 \BOOKMARK [1][]{section.4.1}{Efectuar Login}{chapter.4}% 43
-\BOOKMARK [1][]{section.4.2}{Gerir Inscri\347\343o em Momento de Avalia\347\343o}{chapter.4}% 44
-\BOOKMARK [1][]{section.4.3}{Marcar Momento de Avalia\347\343o}{chapter.4}% 45
-\BOOKMARK [1][]{section.4.4}{Validar Momentos de Avalia\347\343o}{chapter.4}% 46
+\BOOKMARK [1][]{section.4.2}{Inscrever em Momento de Avalia\347\343o}{chapter.4}% 44
+\BOOKMARK [1][]{section.4.3}{Marcar e Cancelar Momento de Avalia\347\343o}{chapter.4}% 45
+\BOOKMARK [1][]{section.4.4}{Validar e Cancelar Valida\347\343o de Momentos de Avalia\347\343o}{chapter.4}% 46
 \BOOKMARK [1][]{section.4.5}{Listar Momentos de Avalia\347\343o}{chapter.4}% 47
 \BOOKMARK [0][]{chapter.5}{Modela\347\343o da Base de Dados}{}% 48
 \BOOKMARK [0][]{chapter.6}{Modela\347\343o UML}{}% 49
