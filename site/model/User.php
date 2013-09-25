@@ -58,7 +58,6 @@ class User{
 			$this->user_num, $array[0], date("Ymd", $array[1]), 
 			$array[2], $array[3], $array[4], $array[5] 
 		);
-		echo "<hr>".$query."<hr>";
 		$this->con->execute($query);
 	}
 	
