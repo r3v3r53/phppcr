@@ -22,21 +22,29 @@ As classes utilizadas no site estão fisicamente localizadas em ficheiros de ext
 \section{Decisões de Implementação Específicas}
 \subsection{Ligação à Base de Dados}
 O controlador principal do site está no ficheiro \code{MainController.php}, no seu construtor é criado um objecto que servirá de ligação à base de dados. esse objecto é da classe de modelo \code{BD}. Esta classe aceita no seu construtor o endereço do servidor onde a base de dados está armazenada, o nome de utilizador, password e o nome da base de dados. Com esses dados o sistema efectua a ligação.\\
-Quando a execução do código termina, esta classe fecha a conecção com a base de dados através do seu método \code{__destruct}.\\
+Quando a execução do código termina, esta classe fecha a conexão com a base de dados através do seu método \code{\_\_destruct}.\\
 A classe para ligação à base de dados contém vários métodos dos quais se podem aqui destacar o método \code{multiQuery} que permite obter resultados que uma chamada de uma stored procedure que retorne mais que uma linha. Para consultas ``normais" existem os métodos \code{query} que retorna os resultados num array, \code{execute} para executar querys que não retornem resultados e o \code{getRow} que apenas retorna uma linha.
 
 \subsection{Funcionamento do controlador principal}
 O controlador principal \code{MainController} começa por criar uma sessão \code{PHP} no servidor, criar os objectos para a ligação à base de dados, vista e dois objectos para controladores ``secundários": \code{UserController} e \code{CalendarController}.\\
-De seguida executa a acção pretendida pelo utilizador através do método \code{actions}, este método verifica no array \code{$_GET} as variáveis recebidas sendo que o primeiro será a classe a utilizar e os seguintes serão os métodos com o respectivo parâmetro.\\
+De seguida executa a acção pretendida pelo utilizador através do método \code{actions}, este método verifica no array \code{\$\_GET} as variáveis recebidas sendo que o primeiro será a classe a utilizar e os seguintes serão os métodos com o respectivo parâmetro.\\
 Por exemplo, para um acesso com \code{\?Calendar\&setDay=20131023}, é executado o método \code{setDay(20131023)} da classe \code{CalendarController}.
 
 \subsection{Login}
-Sempre que o utilizador acede ao site é criado um objecto da classe \code{UserController]
- que recebe no seu construtor o objectos da ligação à base de dados e da vista. É então criado o \code{user} da classe de modelo \code{User} e executado o método \code{login}. Este método verifica se foi submetido o formulário de login, sendo que o tenha sido executa o método \code{login} do \code{user} com o username e password recebidos como parâmetros, caso não tenha sido submetido o formulário o método é chamado sem parâmetros.\\
-Os objectos da classe \code{User} contêm três objectos das classes de modelo \code{Coordinator}, \code{Teacher} e \code{Student}, o seu construtor executa também o método da própria classe \code{login}. Este método, verifica se recebe parâmetros, caso não tenha recebido, executa o método \code{setUser}, caso tenha recebido
+Sempre que o utilizador acede ao site é criado um objecto da classe \code{UserController} que recebe no seu construtor o objectos da ligação à base de dados e da vista. É então criado o \code{user} da classe de modelo \code{User} e executado o método \code{login}. Este método verifica se foi submetido o formulário de login, sendo que o tenha sido executa o método \code{login} do \code{user} com o username e password recebidos como parâmetros, caso não tenha sido submetido o formulário o método é chamado sem parâmetros.\\
+Os objectos da classe \code{User} contêm três objectos das classes de modelo \code{Coordinator}, \code{Teacher} e \code{Student}, o seu construtor executa também o método da própria classe \code{login}. Este método, verifica se recebe parâmetros, caso não tenha recebido, executa o método \code{setUser}, caso tenha recebido, executa um query para confirmar a existência de um utilizador com os dados recolhidos.\\
+Após estar definido, ou não, o utilizador é executado o método \code{setCourses}.\\
+Este método começa por chamar o método \code{getCourses} do objecto da classe \code{BD} que por sua vez executa a stored procedure \code{get_cursos_user} que retorna a lista de cursos a que o utilizador está associado, para cada um deles será adicionado ao objecto correspondente ao papel do utilizador em questão o respectivo curso.\\
+Para cada curso é obtida a lista de disciplinas que está associada ao utilizador com o papel do mesmo. A partir da lista obtida é adicionada ao curso a mesma.\\
+Por fim, para cada disciplina obtida sao consultadas as avaliações da mesma, associadas ao utilizador e são adicionadas ao objecto da Disciplina criado.\\
 
 \subsection{Logout}
+Quando um utilizador efectua o logout, todas as variáveis do objecto da classe modelo \code{User} e executa o método \code{clear} de cada uma das classes dos papéis possiveis. Estas classes herdam da classe \code{Role} que contem os métodos comuns a todas. Este método esvazia o array com os cursos.
+
 \subsection{Listar Avaliações}
+O sistema após ter feito as tarefas de verificar que utilizador está logado e quais os cursos, disciplinas e avaliações a ele estão associados, executa as acções solicitadas pelo método \code{GET}. Terminadas estas tarefas o \code{MainController} executa de novo o método \code{setCourses}.\\
+Após isso solicita ao controlador \code{CalendarController} quais as datas inicial e final definidas e solicita ao \code{UserController} as avaliações contidas nesse intervalo de datas.
+
 \subsection{Ver Detalhes de Avaliação}
 \subsection{Marcar Avaliação}
 \subsection{Cancelar Avaliação}

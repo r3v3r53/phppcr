@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  25 SEP 2013 11:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  25 SEP 2013 16:29
 entering extended mode
 **relatorio.tex
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.tex"
@@ -450,7 +450,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 )
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\rosto.tex"
-<logo.png, id=307, 646.415pt x 499.8675pt>
+<logo.png, id=271, 646.415pt x 499.8675pt>
 File: logo.png Graphic file (type png)
  <use logo.png>
 Package pdftex.def Info: logo.png used on input line 6.
@@ -514,7 +514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 ]) [10]
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\casos_de_uso.tex"
 Cap\'{\i }tulo 3.
-<imagens/casos_de_uso.jpg, id=474, 380.17032pt x 377.15906pt>
+<imagens/casos_de_uso.jpg, id=429, 380.17032pt x 377.15906pt>
 File: imagens/casos_de_uso.jpg Graphic file (type jpg)
 
 <use imagens/casos_de_uso.jpg>
@@ -546,7 +546,7 @@ jpg>])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\modelacao_de_interfaces.
 tex" [16]
 Cap\'{\i }tulo 4.
-<imagens/login_i.jpg, id=521, 189.1065pt x 87.4467pt>
+<imagens/login_i.jpg, id=476, 189.1065pt x 87.4467pt>
 File: imagens/login_i.jpg Graphic file (type jpg)
 
 <use imagens/login_i.jpg>
@@ -555,7 +555,7 @@ Package pdftex.def Info: imagens/login_i.jpg used on input line 6.
  [17
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/login_i.jpg>]
-<imagens/inscrever_cancelar_inscricao_i.jpg, id=526, 409.53pt x 229.8186pt>
+<imagens/inscrever_cancelar_inscricao_i.jpg, id=481, 409.53pt x 229.8186pt>
 File: imagens/inscrever_cancelar_inscricao_i.jpg Graphic file (type jpg)
 
 <use imagens/inscrever_cancelar_inscricao_i.jpg>
@@ -566,7 +566,7 @@ ut line 17.
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/inscrever_cancel
 ar_inscricao_i.jpg>]
-<imagens/nova_avaliacao_i.jpg, id=531, 409.53pt x 366.6498pt>
+<imagens/nova_avaliacao_i.jpg, id=486, 409.53pt x 366.6498pt>
 File: imagens/nova_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/nova_avaliacao_i.jpg>
@@ -600,7 +600,7 @@ os.tex" [21
 Cap\'{\i }tulo 5.
 [22
 
-] <imagens/base_de_dados.png, id=551, 927.465pt x 914.41624pt>
+] <imagens/base_de_dados.png, id=506, 927.465pt x 914.41624pt>
 File: imagens/base_de_dados.png Graphic file (type png)
 
 <use imagens/base_de_dados.png>
@@ -618,7 +618,7 @@ LaTeX Warning: Float too large for page by 265.68382pt on input line 39.
 [23] [24 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/base_de_
 dados.png>]
 Cap\'{\i }tulo 6.
-<imagens/diagrama_de_classes.jpg, id=560, 1006.76125pt x 739.76375pt>
+<imagens/diagrama_de_classes.jpg, id=515, 1006.76125pt x 739.76375pt>
 File: imagens/diagrama_de_classes.jpg Graphic file (type jpg)
 
 <use imagens/diagrama_de_classes.jpg>
@@ -632,13 +632,13 @@ Overfull \hbox (551.51471pt too wide) in paragraph at lines 6--7
 
 LaTeX Warning: Float too large for page by 91.03174pt on input line 9.
 
-<imagens/login.jpg, id=561, 422.32782pt x 375.65344pt>
+<imagens/login.jpg, id=516, 422.32782pt x 375.65344pt>
 File: imagens/login.jpg Graphic file (type jpg)
  <use imagens/login.jpg>
 Package pdftex.def Info: imagens/login.jpg used on input line 17.
 (pdftex.def)             Requested size: 422.32678pt x 375.65251pt.
 
-<imagens/logout.jpg, id=562, 364.36125pt x 268.75406pt>
+<imagens/logout.jpg, id=517, 364.36125pt x 268.75406pt>
 File: imagens/logout.jpg Graphic file (type jpg)
 
 <use imagens/logout.jpg>
@@ -650,7 +650,7 @@ Package pdftex.def Info: imagens/logout.jpg used on input line 24.
 _classes.jpg>] [27 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagen
 s/login.jpg>] [28 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens
 /logout.jpg>]
-<imagens/listar_entre_datas.jpg, id=580, 564.60938pt x 414.04688pt>
+<imagens/listar_entre_datas.jpg, id=535, 564.60938pt x 414.04688pt>
 File: imagens/listar_entre_datas.jpg Graphic file (type jpg)
 
 <use imagens/listar_entre_datas.jpg>
@@ -661,7 +661,7 @@ Overfull \hbox (109.3639pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-<imagens/listar_detalhes.jpg, id=581, 800.9925pt x 518.93875pt>
+<imagens/listar_detalhes.jpg, id=536, 800.9925pt x 518.93875pt>
 File: imagens/listar_detalhes.jpg Graphic file (type jpg)
 
 <use imagens/listar_detalhes.jpg>
@@ -677,7 +677,7 @@ Overfull \hbox (345.74646pt too wide) in paragraph at lines 41--42
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/listar_entre_dat
 as.jpg>] [30 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/list
 ar_detalhes.jpg>]
-<imagens/inscrever_avaliacao.jpg, id=590, 618.31pt x 448.67625pt>
+<imagens/inscrever_avaliacao.jpg, id=545, 618.31pt x 448.67625pt>
 File: imagens/inscrever_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/inscrever_avaliacao.jpg>
@@ -689,7 +689,7 @@ Overfull \hbox (163.0644pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-<imagens/cancelar_inscricao.jpg, id=591, 553.06625pt x 422.57875pt>
+<imagens/cancelar_inscricao.jpg, id=546, 553.06625pt x 422.57875pt>
 File: imagens/cancelar_inscricao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_inscricao.jpg>
@@ -705,7 +705,7 @@ Overfull \hbox (97.82082pt too wide) in paragraph at lines 60--61
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/inscrever_avalia
 cao.jpg>] [32 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/can
 celar_inscricao.jpg>]
-<imagens/nova_avaliacao.jpg, id=601, 581.17125pt x 410.53375pt>
+<imagens/nova_avaliacao.jpg, id=556, 581.17125pt x 410.53375pt>
 File: imagens/nova_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/nova_avaliacao.jpg>
@@ -716,7 +716,7 @@ Overfull \hbox (125.92575pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<imagens/cancelar_avaliacao.jpg, id=602, 571.13374pt x 371.3875pt>
+<imagens/cancelar_avaliacao.jpg, id=557, 571.13374pt x 371.3875pt>
 File: imagens/cancelar_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_avaliacao.jpg>
@@ -732,7 +732,7 @@ Overfull \hbox (115.88828pt too wide) in paragraph at lines 81--82
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/nova_avaliacao.j
 pg>] [34 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/cancelar
 _avaliacao.jpg>]
-<imagens/validar_momento_de_avaliacao.jpg, id=611, 655.44875pt x 369.38pt>
+<imagens/validar_momento_de_avaliacao.jpg, id=566, 655.44875pt x 369.38pt>
 File: imagens/validar_momento_de_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/validar_momento_de_avaliacao.jpg>
@@ -744,7 +744,7 @@ Overfull \hbox (200.20306pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-<imagens/cancelar_validacao.jpg, id=612, 595.22375pt x 354.32375pt>
+<imagens/cancelar_validacao.jpg, id=567, 595.22375pt x 354.32375pt>
 File: imagens/cancelar_validacao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_validacao.jpg>
@@ -765,15 +765,17 @@ Cap\'{\i }tulo 7.
 [37
 
 ]
-Overfull \hbox (28.49228pt too wide) in paragraph at lines 31--34
+Overfull \hbox (28.49228pt too wide) in paragraph at lines 29--32
 \OT1/cmr/m/n/10.95 Por exem-plo, para um acesso com [][][][][][][], e exe-cu-t
 ado o metodo [][][][]
  []
 
-) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\conclusoes.tex"
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+Underfull \hbox (badness 10000) in paragraph at lines 34--40
+
+ []
+
+[38]) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\conclusoes.tex"
 [39]
 Cap\'{\i }tulo 8.
 
@@ -790,15 +792,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
-Package rerunfilecheck Info: File `relatorio.out' has not changed.
-(rerunfilecheck)             Checksum: 2317CDA9720B48E04A824300085DF48C;5500.
+
+
+Package rerunfilecheck Warning: File `relatorio.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `relatorio.out':
+(rerunfilecheck)             Before: 29A05D8BA68AA45F9217CF949D72B938;4768
+(rerunfilecheck)             After:  2317CDA9720B48E04A824300085DF48C;5500.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 12355 strings out of 494045
- 189072 string characters out of 3149941
+ 12358 strings out of 494045
+ 189053 string characters out of 3149941
  529627 words of memory out of 3000000
- 15274 multiletter control sequences out of 15000+200000
+ 15278 multiletter control sequences out of 15000+200000
  18864 words of font info for 48 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,6n,40p,1067b,2869s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -811,9 +823,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Programas/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/urw
 /helvetic/uhvb8ac.pfb>
-Output written on relatorio.pdf (40 pages, 2501236 bytes).
+Output written on relatorio.pdf (40 pages, 2499355 bytes).
 PDF statistics:
- 706 PDF objects out of 1000 (max. 8388607)
- 153 named destinations out of 1000 (max. 500000)
- 694 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 152 named destinations out of 1000 (max. 500000)
+ 622 words of extra memory for PDF output out of 10000 (max. 10000000)
 
