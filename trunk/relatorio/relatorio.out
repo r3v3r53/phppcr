@@ -57,15 +57,20 @@
 \BOOKMARK [0][]{chapter.7}{Implementa\347\343o}{}% 57
 \BOOKMARK [1][]{section.7.1}{Introdu\347\343o}{chapter.7}% 58
 \BOOKMARK [1][]{section.7.2}{Decis\365es Globais de Implementa\347\343o}{chapter.7}% 59
-\BOOKMARK [1][]{section.7.3}{Decis\365es de Implementa\347\343o Espec\355ficas}{chapter.7}% 60
-\BOOKMARK [2][]{subsection.7.3.1}{Login}{section.7.3}% 61
-\BOOKMARK [2][]{subsection.7.3.2}{Logout}{section.7.3}% 62
-\BOOKMARK [2][]{subsection.7.3.3}{Listar Avalia\347\365es}{section.7.3}% 63
-\BOOKMARK [2][]{subsection.7.3.4}{Ver Detalhes de Avalia\347\343o}{section.7.3}% 64
-\BOOKMARK [2][]{subsection.7.3.5}{Marcar Avalia\347\343o}{section.7.3}% 65
-\BOOKMARK [2][]{subsection.7.3.6}{Cancelar Avalia\347\343o}{section.7.3}% 66
-\BOOKMARK [2][]{subsection.7.3.7}{Validar Avalia\347\343o}{section.7.3}% 67
-\BOOKMARK [2][]{subsection.7.3.8}{Cancelar Valida\347\343o de Avalia\347\343o}{section.7.3}% 68
-\BOOKMARK [2][]{subsection.7.3.9}{Inscrever em Avalia\347\343o}{section.7.3}% 69
-\BOOKMARK [2][]{subsection.7.3.10}{Cancelar Inscri\347\343o em Avalia\347\343o}{section.7.3}% 70
-\BOOKMARK [0][]{chapter.8}{Conclus\343o}{}% 71
+\BOOKMARK [2][]{subsection.7.2.1}{Tecnologias Utilizadas}{section.7.2}% 60
+\BOOKMARK [2][]{subsection.7.2.2}{Armazenamento dos Dados}{section.7.2}% 61
+\BOOKMARK [2][]{subsection.7.2.3}{Hierarquia de Ficheiros}{section.7.2}% 62
+\BOOKMARK [1][]{section.7.3}{Decis\365es de Implementa\347\343o Espec\355ficas}{chapter.7}% 63
+\BOOKMARK [2][]{subsection.7.3.1}{Liga\347\343o \340 Base de Dados}{section.7.3}% 64
+\BOOKMARK [2][]{subsection.7.3.2}{Funcionamento do controlador principal}{section.7.3}% 65
+\BOOKMARK [2][]{subsection.7.3.3}{Login}{section.7.3}% 66
+\BOOKMARK [2][]{subsection.7.3.4}{Logout}{section.7.3}% 67
+\BOOKMARK [2][]{subsection.7.3.5}{Listar Avalia\347\365es}{section.7.3}% 68
+\BOOKMARK [2][]{subsection.7.3.6}{Ver Detalhes de Avalia\347\343o}{section.7.3}% 69
+\BOOKMARK [2][]{subsection.7.3.7}{Marcar Avalia\347\343o}{section.7.3}% 70
+\BOOKMARK [2][]{subsection.7.3.8}{Cancelar Avalia\347\343o}{section.7.3}% 71
+\BOOKMARK [2][]{subsection.7.3.9}{Validar Avalia\347\343o}{section.7.3}% 72
+\BOOKMARK [2][]{subsection.7.3.10}{Cancelar Valida\347\343o de Avalia\347\343o}{section.7.3}% 73
+\BOOKMARK [2][]{subsection.7.3.11}{Inscrever em Avalia\347\343o}{section.7.3}% 74
+\BOOKMARK [2][]{subsection.7.3.12}{Cancelar Inscri\347\343o em Avalia\347\343o}{section.7.3}% 75
+\BOOKMARK [0][]{chapter.8}{Conclus\343o}{}% 76

@@ -1,22 +1,40 @@
-
-
 \chapter{Implementação}
 
 \section{Introdução}
+
 Enquadramento geral do projecto, objectivos a atingir e identificação das tarefas que foram objecto de implementação.
 
 \section{Decisões Globais de Implementação}
 
-Devem ser explicadas as principais intervenções/decisões de codificação do sistema web relativamente aos elementos seguintes:
-- Tecnologias utilizadas, identificando os respectivos padrões/versões. Justificar as escolhas.
-- Armazenamento dos dados de entrada que suportam a informação disponibilizada.
-- Implementação do layout das páginas modelo
-- Hierarquia de ficheiros e de estruturas de dados utilizadas.
+\subsection{Tecnologias Utilizadas}
+Para este projecto foi escolhida a linguagem de programação PHP com ligação a base de dados MySQL, é utilizado o principio de programação orientada a objectos com um modelo de arquitectura Model-View-Controller (MVC).\\
+Para a ligação entre o PHP e o mySQL é utilizada a extenção MySQLi.
+Para a criação das páginas a apresentar ao utilizador foi implementado o sistema de gestão de templates para PHP - Smarty (versão 3.1). E também o API de Javascript - jQuery (versão jquery-1.3.1).
 
+\subsection{Armazenamento dos Dados}
+Os dados utilizados pela aplicação são armazenados na base de dados local (mySQL) e quando um utilizador acede ao site é criada uma sessão em PHP que guarda, temporariamente, os dados necessários para manter o utilizador logado.
+
+\subsection{Hierarquia de Ficheiros}
+Os ficheiros com os controladores estão colocados na directoria \textit{``controller"}, os do modelo na directoria \textit{``model"}, da vista na directoria \textit{``view"}. As folhas de estilo (``CSS") dentro da directoria \textit{``css"}, os elementos gráficos são colocados dentro de \textit{``imagens"}. Todos os ficheiros com as bibliotecas javascript ou funções criadas para este site ficam dentro da directoria \textit{``js"}. Por fim os ficheiros utilizados pelo Smarty para apresentação de html ficam dentro da directoria \textit{``templates"}.\\
+As classes utilizadas no site estão fisicamente localizadas em ficheiros de extensão PHP com o mesmo nome da respectiva classe.
 
 
 \section{Decisões de Implementação Específicas}
+\subsection{Ligação à Base de Dados}
+O controlador principal do site está no ficheiro \code{MainController.php}, no seu construtor é criado um objecto que servirá de ligação à base de dados. esse objecto é da classe de modelo \code{BD}. Esta classe aceita no seu construtor o endereço do servidor onde a base de dados está armazenada, o nome de utilizador, password e o nome da base de dados. Com esses dados o sistema efectua a ligação.\\
+Quando a execução do código termina, esta classe fecha a conecção com a base de dados através do seu método \code{__destruct}.\\
+A classe para ligação à base de dados contém vários métodos dos quais se podem aqui destacar o método \code{multiQuery} que permite obter resultados que uma chamada de uma stored procedure que retorne mais que uma linha. Para consultas ``normais" existem os métodos \code{query} que retorna os resultados num array, \code{execute} para executar querys que não retornem resultados e o \code{getRow} que apenas retorna uma linha.
+
+\subsection{Funcionamento do controlador principal}
+O controlador principal \code{MainController} começa por criar uma sessão \code{PHP} no servidor, criar os objectos para a ligação à base de dados, vista e dois objectos para controladores ``secundários": \code{UserController} e \code{CalendarController}.\\
+De seguida executa a acção pretendida pelo utilizador através do método \code{actions}, este método verifica no array \code{$_GET} as variáveis recebidas sendo que o primeiro será a classe a utilizar e os seguintes serão os métodos com o respectivo parâmetro.\\
+Por exemplo, para um acesso com \code{\?Calendar\&setDay=20131023}, é executado o método \code{setDay(20131023)} da classe \code{CalendarController}.
+
 \subsection{Login}
+Sempre que o utilizador acede ao site é criado um objecto da classe \code{UserController]
+ que recebe no seu construtor o objectos da ligação à base de dados e da vista. É então criado o \code{user} da classe de modelo \code{User} e executado o método \code{login}. Este método verifica se foi submetido o formulário de login, sendo que o tenha sido executa o método \code{login} do \code{user} com o username e password recebidos como parâmetros, caso não tenha sido submetido o formulário o método é chamado sem parâmetros.\\
+Os objectos da classe \code{User} contêm três objectos das classes de modelo \code{Coordinator}, \code{Teacher} e \code{Student}, o seu construtor executa também o método da própria classe \code{login}. Este método, verifica se recebe parâmetros, caso não tenha recebido, executa o método \code{setUser}, caso tenha recebido
+
 \subsection{Logout}
 \subsection{Listar Avaliações}
 \subsection{Ver Detalhes de Avaliação}
