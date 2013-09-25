@@ -43,9 +43,11 @@ Quando um utilizador efectua o logout, todas as variáveis do objecto da classe 
 
 \subsection{Listar Avaliações}
 O sistema após ter feito as tarefas de verificar que utilizador está logado e quais os cursos, disciplinas e avaliações a ele estão associados, executa as acções solicitadas pelo método \code{GET}. Terminadas estas tarefas o \code{MainController} executa de novo o método \code{setCourses}.\\
-Após isso solicita ao controlador \code{CalendarController} quais as datas inicial e final definidas e solicita ao \code{UserController} as avaliações contidas nesse intervalo de datas.
+Após isso solicita ao controlador \code{CalendarController} quais as datas inicial e final definidas e solicita ao \code{UserController} as avaliações contidas nesse intervalo de datas, esses dados são passados à \code{View} que apresenta o resultado ao utilizador com auxílio do template engine \textit{Smarty}..
 
 \subsection{Ver Detalhes de Avaliação}
+
+
 \subsection{Marcar Avaliação}
 \subsection{Cancelar Avaliação}
 \subsection{Validar Avaliação}
