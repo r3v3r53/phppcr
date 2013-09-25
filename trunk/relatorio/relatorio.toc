@@ -68,28 +68,28 @@
 \contentsline {section}{\numberline {6.1}Diagrama de Classes}{25}{section.6.1}
 \contentsline {section}{\numberline {6.2}Diagramas de Sequ\IeC {\^e}ncia}{25}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Efectuar Login}{25}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{29}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{31}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{33}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{35}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Implementa\IeC {\c c}\IeC {\~a}o}{37}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{37}{section.7.1}
-\contentsline {section}{\numberline {7.2}Decis\IeC {\~o}es Globais de Implementa\IeC {\c c}\IeC {\~a}o}{37}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Tecnologias Utilizadas}{37}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Armazenamento dos Dados}{37}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Hierarquia de Ficheiros}{37}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Decis\IeC {\~o}es de Implementa\IeC {\c c}\IeC {\~a}o Espec\IeC {\'\i }ficas}{38}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Liga\IeC {\c c}\IeC {\~a}o \IeC {\`a} Base de Dados}{38}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Funcionamento do controlador principal}{38}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Login}{38}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Logout}{39}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Listar Avalia\IeC {\c c}\IeC {\~o}es}{39}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Ver Detalhes de Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.6}
-\contentsline {subsection}{\numberline {7.3.7}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.7}
-\contentsline {subsection}{\numberline {7.3.8}Cancelar Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.8}
-\contentsline {subsection}{\numberline {7.3.9}Validar Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.9}
-\contentsline {subsection}{\numberline {7.3.10}Cancelar Valida\IeC {\c c}\IeC {\~a}o de Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.10}
-\contentsline {subsection}{\numberline {7.3.11}Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.11}
-\contentsline {subsection}{\numberline {7.3.12}Cancelar Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.12}
-\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{40}{chapter.8}
-\contentsline {paragraph}{}{40}{section*.37}
+\contentsline {subsection}{\numberline {6.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{27}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{29}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{31}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{33}{subsection.6.2.5}
+\contentsline {chapter}{\numberline {7}Implementa\IeC {\c c}\IeC {\~a}o}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{35}{section.7.1}
+\contentsline {section}{\numberline {7.2}Decis\IeC {\~o}es Globais de Implementa\IeC {\c c}\IeC {\~a}o}{35}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Tecnologias Utilizadas}{35}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Armazenamento dos Dados}{35}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Hierarquia de Ficheiros}{35}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Decis\IeC {\~o}es de Implementa\IeC {\c c}\IeC {\~a}o Espec\IeC {\'\i }ficas}{36}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Liga\IeC {\c c}\IeC {\~a}o \IeC {\`a} Base de Dados}{36}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Funcionamento do controlador principal}{36}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Login}{36}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Logout}{37}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Listar Avalia\IeC {\c c}\IeC {\~o}es}{37}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Ver Detalhes de Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.6}
+\contentsline {subsection}{\numberline {7.3.7}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.7}
+\contentsline {subsection}{\numberline {7.3.8}Cancelar Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.8}
+\contentsline {subsection}{\numberline {7.3.9}Validar Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.9}
+\contentsline {subsection}{\numberline {7.3.10}Cancelar Valida\IeC {\c c}\IeC {\~a}o de Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.10}
+\contentsline {subsection}{\numberline {7.3.11}Inscrever em Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.11}
+\contentsline {subsection}{\numberline {7.3.12}Cancelar Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.12}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{39}{chapter.8}
+\contentsline {paragraph}{}{39}{section*.37}
