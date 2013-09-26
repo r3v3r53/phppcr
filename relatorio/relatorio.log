@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  26 SEP 2013 14:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  26 SEP 2013 15:01
 entering extended mode
 **relatorio.tex
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.tex"
@@ -790,11 +790,6 @@ Underfull \vbox (badness 4699) has occurred while \output is active []
  [42])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\conclusoes.tex" [43]
 Cap\'{\i }tulo 8.
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--10
-
- []
-
 ) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\apendices.tex"
 [44
 
@@ -965,10 +960,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `relatorio.out' has not changed.
 (rerunfilecheck)             Checksum: 9339C6D87B1296180F02B9A1A0519D9B;7592.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
@@ -988,7 +979,7 @@ amsfonts/cm/cmcsc10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Programas/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/urw
 /helvetic/uhvb8ac.pfb>
-Output written on relatorio.pdf (94 pages, 3056275 bytes).
+Output written on relatorio.pdf (94 pages, 3055832 bytes).
 PDF statistics:
  3622 PDF objects out of 4296 (max. 8388607)
  2339 named destinations out of 2487 (max. 500000)
