@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  26 SEP 2013 15:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.12.27)  26 SEP 2013 15:04
 entering extended mode
 **relatorio.tex
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.tex"
@@ -480,15 +480,11 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.toc" [3
 
 ]
-[4] [5])
+[4])
 \tf@toc=\write4
- [6]
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.lof")
+ [5] ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.lof")
 \tf@lof=\write5
- [7
-
-]
-[8
+[6
 
 ] ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\introducao.tex"
 Cap\'{\i }tulo 1.
@@ -502,22 +498,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
-[9
+) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\descricao_geral.tex"
+[7
 
-]) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\descricao_geral.tex" 
-[10]
+
+]
 Cap\'{\i }tulo 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[11
+[8
 
-]) [12]
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\casos_de_uso.tex"
+]) [9] ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\casos_de_uso.tex"
+
 Cap\'{\i }tulo 3.
-<imagens/casos_de_uso.jpg, id=632, 380.17032pt x 377.15906pt>
+<imagens/casos_de_uso.jpg, id=620, 380.17032pt x 377.15906pt>
 File: imagens/casos_de_uso.jpg Graphic file (type jpg)
 
 <use imagens/casos_de_uso.jpg>
@@ -529,57 +526,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-[13
 
-
-]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-[14 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/casos_de_uso.
-jpg>])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\listar_avaliacoes.tex")
+[10
+
+
+])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\listar_avaliacoes.tex"
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/casos_de_uso
+.jpg>])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\validar_avaliacoes.tex"
-[15])
+[12])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\marcar_avaliacao.tex"
-[16])
+[13])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\inscrever_avaliacao.tex"
-[17])
+[14])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\modelacao_de_interfaces.
-tex" [18]
+tex" [15]
 Cap\'{\i }tulo 4.
-<imagens/login_i.jpg, id=679, 189.1065pt x 87.4467pt>
+<imagens/login_i.jpg, id=667, 189.1065pt x 87.4467pt>
 File: imagens/login_i.jpg Graphic file (type jpg)
 
 <use imagens/login_i.jpg>
 Package pdftex.def Info: imagens/login_i.jpg used on input line 6.
 (pdftex.def)             Requested size: 189.10603pt x 87.44647pt.
- [19
+ [16
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/login_i.jpg>]
-<imagens/inscrever_cancelar_inscricao_i.jpg, id=685, 409.53pt x 229.8186pt>
+<imagens/inscrever_cancelar_inscricao_i.jpg, id=672, 409.53pt x 229.8186pt>
 File: imagens/inscrever_cancelar_inscricao_i.jpg Graphic file (type jpg)
 
 <use imagens/inscrever_cancelar_inscricao_i.jpg>
 Package pdftex.def Info: imagens/inscrever_cancelar_inscricao_i.jpg used on inp
 ut line 17.
 (pdftex.def)             Requested size: 409.52899pt x 229.81804pt.
- [20
+ [17
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/inscrever_cancel
 ar_inscricao_i.jpg>]
-<imagens/nova_avaliacao_i.jpg, id=690, 409.53pt x 366.6498pt>
+<imagens/nova_avaliacao_i.jpg, id=677, 409.53pt x 366.6498pt>
 File: imagens/nova_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/nova_avaliacao_i.jpg>
 Package pdftex.def Info: imagens/nova_avaliacao_i.jpg used on input line 28.
 (pdftex.def)             Requested size: 409.52899pt x 366.64888pt.
- [21
+ [18
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/nova_avaliacao_i
 .jpg>]
-<imagens/validar_avaliacao_i.jpg, id=695, 409.53pt x 229.8186pt>
+<imagens/validar_avaliacao_i.jpg, id=682, 409.53pt x 229.8186pt>
 File: imagens/validar_avaliacao_i.jpg Graphic file (type jpg)
 
 <use imagens/validar_avaliacao_i.jpg>
@@ -588,15 +588,18 @@ Package pdftex.def Info: imagens/validar_avaliacao_i.jpg used on input line 39.
 (pdftex.def)             Requested size: 409.52899pt x 229.81804pt.
 )
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\modelacao_da_base_de_dad
-os.tex" [22
+os.tex" [19
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/validar_avaliaca
 o_i.jpg>]
 Cap\'{\i }tulo 5.
-[23
+[20
 
-] [24] [25] [26]
-<imagens/base_de_dados.png, id=822, 927.465pt x 914.41624pt>
+]
+Underfull \vbox (badness 1028) has occurred while \output is active []
+
+ [21]
+[22] [23] <imagens/base_de_dados.png, id=827, 927.465pt x 914.41624pt>
 File: imagens/base_de_dados.png Graphic file (type png)
 
 <use imagens/base_de_dados.png>
@@ -608,10 +611,10 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 185--186
  []
 
 ) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\modelacao_uml.tex"
-[27] [28 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/base_de_
+[24] [25 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/base_de_
 dados.png>]
 Cap\'{\i }tulo 6.
-<imagens/diagrama_de_classes.jpg, id=861, 1006.76125pt x 739.76375pt>
+<imagens/diagrama_de_classes.jpg, id=849, 1006.76125pt x 739.76375pt>
 File: imagens/diagrama_de_classes.jpg Graphic file (type jpg)
 
 <use imagens/diagrama_de_classes.jpg>
@@ -622,7 +625,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 6--7
  [][] 
  []
 
-<imagens/login.jpg, id=862, 422.32782pt x 375.65344pt>
+<imagens/login.jpg, id=850, 422.32782pt x 375.65344pt>
 File: imagens/login.jpg Graphic file (type jpg)
  <use imagens/login.jpg>
 Package pdftex.def Info: imagens/login.jpg used on input line 17.
@@ -635,10 +638,10 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 17--18
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [26
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/diagrama_de_clas
-ses.jpg>] <imagens/logout.jpg, id=867, 364.36125pt x 268.75406pt>
+ses.jpg>] <imagens/logout.jpg, id=855, 364.36125pt x 268.75406pt>
 File: imagens/logout.jpg Graphic file (type jpg)
 
 <use imagens/logout.jpg>
@@ -649,9 +652,9 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 24--25
  [][] 
  []
 
-[30 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/login.jpg>]
-[31 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/logout.jpg>]
-<imagens/listar_entre_datas.jpg, id=877, 564.60938pt x 414.04688pt>
+[27 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/login.jpg>]
+[28 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/logout.jpg>]
+<imagens/listar_entre_datas.jpg, id=864, 564.60938pt x 414.04688pt>
 File: imagens/listar_entre_datas.jpg Graphic file (type jpg)
 
 <use imagens/listar_entre_datas.jpg>
@@ -662,7 +665,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 34--35
  [][] 
  []
 
-<imagens/listar_detalhes.jpg, id=878, 800.9925pt x 518.93875pt>
+<imagens/listar_detalhes.jpg, id=865, 800.9925pt x 518.93875pt>
 File: imagens/listar_detalhes.jpg Graphic file (type jpg)
 
 <use imagens/listar_detalhes.jpg>
@@ -673,12 +676,12 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 41--42
  [][] 
  []
 
-[32
+[29
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/listar_entre_dat
-as.jpg>] [33 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/list
+as.jpg>] [30 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/list
 ar_detalhes.jpg>]
-<imagens/inscrever_avaliacao.jpg, id=887, 618.31pt x 448.67625pt>
+<imagens/inscrever_avaliacao.jpg, id=874, 618.31pt x 448.67625pt>
 File: imagens/inscrever_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/inscrever_avaliacao.jpg>
@@ -690,7 +693,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-<imagens/cancelar_inscricao.jpg, id=888, 553.06625pt x 422.57875pt>
+<imagens/cancelar_inscricao.jpg, id=875, 553.06625pt x 422.57875pt>
 File: imagens/cancelar_inscricao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_inscricao.jpg>
@@ -701,12 +704,12 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 60--61
  [][] 
  []
 
-[34
+[31
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/inscrever_avalia
-cao.jpg>] [35 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/can
+cao.jpg>] [32 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/can
 celar_inscricao.jpg>]
-<imagens/nova_avaliacao.jpg, id=897, 581.17125pt x 410.53375pt>
+<imagens/nova_avaliacao.jpg, id=885, 581.17125pt x 410.53375pt>
 File: imagens/nova_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/nova_avaliacao.jpg>
@@ -717,7 +720,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 74--75
  [][] 
  []
 
-<imagens/cancelar_avaliacao.jpg, id=898, 571.13374pt x 371.3875pt>
+<imagens/cancelar_avaliacao.jpg, id=886, 571.13374pt x 371.3875pt>
 File: imagens/cancelar_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_avaliacao.jpg>
@@ -728,12 +731,12 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 81--82
  [][] 
  []
 
-[36
+[33
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/nova_avaliacao.j
-pg>] [37 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/cancelar
+pg>] [34 <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/cancelar
 _avaliacao.jpg>]
-<imagens/validar_momento_de_avaliacao.jpg, id=908, 656.4525pt x 370.38374pt>
+<imagens/validar_momento_de_avaliacao.jpg, id=895, 656.4525pt x 370.38374pt>
 File: imagens/validar_momento_de_avaliacao.jpg Graphic file (type jpg)
 
 <use imagens/validar_momento_de_avaliacao.jpg>
@@ -745,7 +748,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 92--93
  [][] 
  []
 
-<imagens/cancelar_validacao.jpg, id=909, 595.22375pt x 354.32375pt>
+<imagens/cancelar_validacao.jpg, id=896, 595.22375pt x 354.32375pt>
 File: imagens/cancelar_validacao.jpg Graphic file (type jpg)
 
 <use imagens/cancelar_validacao.jpg>
@@ -757,7 +760,7 @@ Overfull \hbox (28.45276pt too wide) in paragraph at lines 99--100
  []
 
 ) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\implementacao.tex"
-[38
+[35
 
  <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens/validar_momento_
 de_avaliacao.jpg> <C:/Documents and Settings/PedroM/pm/phppcr/relatorio/imagens
@@ -768,7 +771,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-[39
+[36
 
 ]
 Overfull \hbox (28.49228pt too wide) in paragraph at lines 28--31
@@ -781,17 +784,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--39
 
  []
 
-[40]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Underfull \vbox (badness 4699) has occurred while \output is active []
-
- [42])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\conclusoes.tex" [43]
+[37] [38]) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\conclusoes.te
+x" [39]
 Cap\'{\i }tulo 8.
 ) ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\apendices.tex"
-[44
+[40
 
 ]
 Ap\^endice A.
@@ -799,99 +796,79 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 3.
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/index.php")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/controller/Mai
-nController.php" [45
+nController.php" [41
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46])
+ [42])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/controller/Use
-rController.php" [47]
+rController.php" [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/controller/Cal
+endarController.php" [45])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/BD.php"
+[46]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [47]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [48])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Calendar
+.php" [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [49]
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/controller/Cal
-endarController.php")
-Underfull \vbox (badness 5622) has occurred while \output is active []
 
  [50]
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/BD.php"
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [51])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Coordina
+tor.php" [52])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Course.p
+hp" [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Calendar
-.php" [54]
+ [54])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [56]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [57])
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [58]
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Coordina
-tor.php")
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Course.p
-hp" [59]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [60]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [61])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Day.php"
-[62]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63])
+ [56])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Details.
-php" [64])
+php" [57])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Evaluati
-on.php" [65]
+on.php" [58])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Role.php
+" [59]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Student.
+php" [61])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Teacher.
+php" [62])
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/User.php
+" [63]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [64]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Role.php
-" [67]
+("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/view/View.php"
+[67]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [68])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Student.
-php" [69])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/Teacher.
-php" [70])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/model/User.php
-" [71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [75])
-("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/view/View.php"
-[76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77])
 ("C:\Programas\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
@@ -899,60 +876,57 @@ File: lstlang1.sty 2013/08/26 1.5b listings language file
 File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 )
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/css/simple.css
-" [78]
+" [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
+ [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
+ [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
+ [72]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83])
+ [73])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/scripts/codes.
-js" [84])
+js" [74])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/b_lo
-gin.tpl") [85]
+gin.tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/coor
-dinator_details.tpl")
+dinator_details.tpl" [75])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/deta
-lhes_avaliacao.tpl" [86])
+lhes_avaliacao.tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/deta
-lhes.tpl")
+lhes.tpl") [76]
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/iden
 tificacao.tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/inde
-x.tpl" [87]
+x.tpl" [77])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88])
+ [78]
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/menu
 .tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/mont
-hly.tpl" [89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90])
+hly.tpl" [79])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/new_
-evaluation.tpl" [91])
+evaluation.tpl" [80])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/pain
-el_login.tpl") [92]
+el_login.tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/roda
 pe.tpl")
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/stud
-ent_details.tpl")
+ent_details.tpl" [81])
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/teac
-her_details.tpl" [93])
+her_details.tpl")
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82]
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\ficheiros/templates/teac
 her_menu.tpl"))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
- [94]
+ [83]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
 ("C:\Documents and Settings\PedroM\pm\phppcr\relatorio\relatorio.aux")
@@ -960,16 +934,20 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `relatorio.out' has not changed.
 (rerunfilecheck)             Checksum: 9339C6D87B1296180F02B9A1A0519D9B;7592.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 15259 strings out of 494045
- 237476 string characters out of 3149941
- 664995 words of memory out of 3000000
+ 15248 strings out of 494045
+ 237399 string characters out of 3149941
+ 682322 words of memory out of 3000000
  15875 multiletter control sequences out of 15000+200000
  18696 words of font info for 47 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,6n,52p,1067b,2961s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,6n,52p,1067b,3713s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Programas/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Programas/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Programas/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmbx12.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/public/
@@ -979,9 +957,9 @@ amsfonts/cm/cmcsc10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Programas/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Programas/MiKTeX 2.9/fonts/type1/urw
 /helvetic/uhvb8ac.pfb>
-Output written on relatorio.pdf (94 pages, 3055832 bytes).
+Output written on relatorio.pdf (83 pages, 3046803 bytes).
 PDF statistics:
- 3622 PDF objects out of 4296 (max. 8388607)
- 2339 named destinations out of 2487 (max. 500000)
+ 3574 PDF objects out of 3580 (max. 8388607)
+ 2328 named destinations out of 2487 (max. 500000)
  939 words of extra memory for PDF output out of 10000 (max. 10000000)
 
