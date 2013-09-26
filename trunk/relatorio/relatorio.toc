@@ -63,63 +63,63 @@
 \contentsline {section}{\numberline {4.4}Validar e Cancelar Valida\IeC {\c c}\IeC {\~a}o de Momentos de Avalia\IeC {\c c}\IeC {\~a}o}{19}{section.4.4}
 \contentsline {chapter}{\numberline {5}Modela\IeC {\c c}\IeC {\~a}o da Base de Dados}{20}{chapter.5}
 \contentsline {paragraph}{}{20}{section*.24}
-\contentsline {chapter}{\numberline {6}Modela\IeC {\c c}\IeC {\~a}o UML}{26}{chapter.6}
-\contentsline {section}{\numberline {6.1}Diagrama de Classes}{26}{section.6.1}
-\contentsline {section}{\numberline {6.2}Diagramas de Sequ\IeC {\^e}ncia}{27}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Efectuar Login}{27}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{29}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{31}{subsection.6.2.3}
-\contentsline {subsection}{\numberline {6.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{33}{subsection.6.2.4}
-\contentsline {subsection}{\numberline {6.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{35}{subsection.6.2.5}
-\contentsline {chapter}{\numberline {7}Implementa\IeC {\c c}\IeC {\~a}o}{36}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{36}{section.7.1}
-\contentsline {section}{\numberline {7.2}Decis\IeC {\~o}es Globais de Implementa\IeC {\c c}\IeC {\~a}o}{36}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Tecnologias Utilizadas}{36}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}Armazenamento dos Dados}{36}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}Hierarquia de Ficheiros}{36}{subsection.7.2.3}
-\contentsline {section}{\numberline {7.3}Decis\IeC {\~o}es de Implementa\IeC {\c c}\IeC {\~a}o Espec\IeC {\'\i }ficas}{37}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Liga\IeC {\c c}\IeC {\~a}o \IeC {\`a} Base de Dados}{37}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Funcionamento do controlador principal}{37}{subsection.7.3.2}
-\contentsline {subsection}{\numberline {7.3.3}Login}{37}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Logout}{38}{subsection.7.3.4}
-\contentsline {subsection}{\numberline {7.3.5}Listar Avalia\IeC {\c c}\IeC {\~o}es}{38}{subsection.7.3.5}
-\contentsline {subsection}{\numberline {7.3.6}Ver Detalhes de Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.6}
-\contentsline {subsection}{\numberline {7.3.7}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.7}
-\contentsline {subsection}{\numberline {7.3.8}Cancelar Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.8}
-\contentsline {subsection}{\numberline {7.3.9}Validar e Cancelar Valida\IeC {\c c}\IeC {\~a}o de Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.9}
-\contentsline {subsection}{\numberline {7.3.10}Inscrever e Cancelar Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{39}{subsection.7.3.10}
-\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{40}{chapter.8}
-\contentsline {paragraph}{}{40}{section*.37}
-\contentsline {chapter}{\numberline {A}Ap\IeC {\^e}ndices}{41}{appendix.A}
-\contentsline {section}{\numberline {A.1}index.php}{41}{section.A.1}
-\contentsline {section}{\numberline {A.2}controller/MainController.php}{41}{section.A.2}
-\contentsline {section}{\numberline {A.3}controller/UserController.php}{43}{section.A.3}
-\contentsline {section}{\numberline {A.4}controller/CalendarController.php}{45}{section.A.4}
-\contentsline {section}{\numberline {A.5}model/BD.php}{46}{section.A.5}
-\contentsline {section}{\numberline {A.6}model/Calendar.php}{49}{section.A.6}
-\contentsline {section}{\numberline {A.7}model/Coordinator.php}{52}{section.A.7}
-\contentsline {section}{\numberline {A.8}model/Course.php}{53}{section.A.8}
-\contentsline {section}{\numberline {A.9}model/Day.php}{56}{section.A.9}
-\contentsline {section}{\numberline {A.10}model/Details.php}{57}{section.A.10}
-\contentsline {section}{\numberline {A.11}model/Evaluation.php}{58}{section.A.11}
-\contentsline {section}{\numberline {A.12}model/Role.php}{59}{section.A.12}
-\contentsline {section}{\numberline {A.13}model/Student.php}{61}{section.A.13}
-\contentsline {section}{\numberline {A.14}model/Teacher.php}{62}{section.A.14}
-\contentsline {section}{\numberline {A.15}model/User.php}{63}{section.A.15}
-\contentsline {section}{\numberline {A.16}view/View.php}{67}{section.A.16}
-\contentsline {section}{\numberline {A.17}css/simple.css}{69}{section.A.17}
-\contentsline {section}{\numberline {A.18}scripts/codes.js}{74}{section.A.18}
-\contentsline {section}{\numberline {A.19}templates/b\_login.tpl}{75}{section.A.19}
-\contentsline {section}{\numberline {A.20}templates/coordinator\_details.tpl}{75}{section.A.20}
-\contentsline {section}{\numberline {A.21}templates/detalhes\_avaliacao.tpl}{76}{section.A.21}
-\contentsline {section}{\numberline {A.22}templates/detalhes.tpl}{76}{section.A.22}
-\contentsline {section}{\numberline {A.23}templates/identificacao.tpl}{77}{section.A.23}
-\contentsline {section}{\numberline {A.24}templates/index.tpl}{77}{section.A.24}
-\contentsline {section}{\numberline {A.25}templates/menu.tpl}{79}{section.A.25}
-\contentsline {section}{\numberline {A.26}templates/monthly.tpl}{79}{section.A.26}
-\contentsline {section}{\numberline {A.27}templates/new\_evaluation.tpl}{80}{section.A.27}
-\contentsline {section}{\numberline {A.28}templates/painel\_login.tpl}{81}{section.A.28}
-\contentsline {section}{\numberline {A.29}templates/rodape.tpl}{81}{section.A.29}
-\contentsline {section}{\numberline {A.30}templates/student\_details.tpl}{81}{section.A.30}
-\contentsline {section}{\numberline {A.31}templates/teacher\_details.tpl}{82}{section.A.31}
-\contentsline {section}{\numberline {A.32}templates/teacher\_menu.tpl}{83}{section.A.32}
+\contentsline {chapter}{\numberline {6}Modela\IeC {\c c}\IeC {\~a}o UML}{25}{chapter.6}
+\contentsline {section}{\numberline {6.1}Diagrama de Classes}{25}{section.6.1}
+\contentsline {section}{\numberline {6.2}Diagramas de Sequ\IeC {\^e}ncia}{26}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Efectuar Login}{26}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Listar Avalia\IeC {\c c}\IeC {\~o}es}{28}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{30}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{32}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Validar Avalia\IeC {\c c}\IeC {\~o}es}{34}{subsection.6.2.5}
+\contentsline {chapter}{\numberline {7}Implementa\IeC {\c c}\IeC {\~a}o}{35}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introdu\IeC {\c c}\IeC {\~a}o}{35}{section.7.1}
+\contentsline {section}{\numberline {7.2}Decis\IeC {\~o}es Globais de Implementa\IeC {\c c}\IeC {\~a}o}{35}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Tecnologias Utilizadas}{35}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Armazenamento dos Dados}{35}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Hierarquia de Ficheiros}{35}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Decis\IeC {\~o}es de Implementa\IeC {\c c}\IeC {\~a}o Espec\IeC {\'\i }ficas}{36}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Liga\IeC {\c c}\IeC {\~a}o \IeC {\`a} Base de Dados}{36}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Funcionamento do controlador principal}{36}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Login}{36}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Logout}{37}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Listar Avalia\IeC {\c c}\IeC {\~o}es}{37}{subsection.7.3.5}
+\contentsline {subsection}{\numberline {7.3.6}Ver Detalhes de Avalia\IeC {\c c}\IeC {\~a}o}{37}{subsection.7.3.6}
+\contentsline {subsection}{\numberline {7.3.7}Marcar Avalia\IeC {\c c}\IeC {\~a}o}{37}{subsection.7.3.7}
+\contentsline {subsection}{\numberline {7.3.8}Cancelar Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.8}
+\contentsline {subsection}{\numberline {7.3.9}Validar e Cancelar Valida\IeC {\c c}\IeC {\~a}o de Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.9}
+\contentsline {subsection}{\numberline {7.3.10}Inscrever e Cancelar Inscri\IeC {\c c}\IeC {\~a}o em Avalia\IeC {\c c}\IeC {\~a}o}{38}{subsection.7.3.10}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{39}{chapter.8}
+\contentsline {paragraph}{}{39}{section*.37}
+\contentsline {chapter}{\numberline {A}Ap\IeC {\^e}ndices}{40}{appendix.A}
+\contentsline {section}{\numberline {A.1}index.php}{40}{section.A.1}
+\contentsline {section}{\numberline {A.2}controller/MainController.php}{40}{section.A.2}
+\contentsline {section}{\numberline {A.3}controller/UserController.php}{42}{section.A.3}
+\contentsline {section}{\numberline {A.4}controller/CalendarController.php}{44}{section.A.4}
+\contentsline {section}{\numberline {A.5}model/BD.php}{45}{section.A.5}
+\contentsline {section}{\numberline {A.6}model/Calendar.php}{48}{section.A.6}
+\contentsline {section}{\numberline {A.7}model/Coordinator.php}{51}{section.A.7}
+\contentsline {section}{\numberline {A.8}model/Course.php}{52}{section.A.8}
+\contentsline {section}{\numberline {A.9}model/Day.php}{55}{section.A.9}
+\contentsline {section}{\numberline {A.10}model/Details.php}{56}{section.A.10}
+\contentsline {section}{\numberline {A.11}model/Evaluation.php}{57}{section.A.11}
+\contentsline {section}{\numberline {A.12}model/Role.php}{58}{section.A.12}
+\contentsline {section}{\numberline {A.13}model/Student.php}{60}{section.A.13}
+\contentsline {section}{\numberline {A.14}model/Teacher.php}{61}{section.A.14}
+\contentsline {section}{\numberline {A.15}model/User.php}{62}{section.A.15}
+\contentsline {section}{\numberline {A.16}view/View.php}{66}{section.A.16}
+\contentsline {section}{\numberline {A.17}css/simple.css}{68}{section.A.17}
+\contentsline {section}{\numberline {A.18}scripts/codes.js}{73}{section.A.18}
+\contentsline {section}{\numberline {A.19}templates/b\_login.tpl}{74}{section.A.19}
+\contentsline {section}{\numberline {A.20}templates/coordinator\_details.tpl}{74}{section.A.20}
+\contentsline {section}{\numberline {A.21}templates/detalhes\_avaliacao.tpl}{75}{section.A.21}
+\contentsline {section}{\numberline {A.22}templates/detalhes.tpl}{75}{section.A.22}
+\contentsline {section}{\numberline {A.23}templates/identificacao.tpl}{76}{section.A.23}
+\contentsline {section}{\numberline {A.24}templates/index.tpl}{76}{section.A.24}
+\contentsline {section}{\numberline {A.25}templates/menu.tpl}{78}{section.A.25}
+\contentsline {section}{\numberline {A.26}templates/monthly.tpl}{78}{section.A.26}
+\contentsline {section}{\numberline {A.27}templates/new\_evaluation.tpl}{79}{section.A.27}
+\contentsline {section}{\numberline {A.28}templates/painel\_login.tpl}{80}{section.A.28}
+\contentsline {section}{\numberline {A.29}templates/rodape.tpl}{80}{section.A.29}
+\contentsline {section}{\numberline {A.30}templates/student\_details.tpl}{80}{section.A.30}
+\contentsline {section}{\numberline {A.31}templates/teacher\_details.tpl}{81}{section.A.31}
+\contentsline {section}{\numberline {A.32}templates/teacher\_menu.tpl}{82}{section.A.32}
