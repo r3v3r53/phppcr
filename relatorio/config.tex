@@ -133,3 +133,8 @@ bookmarksopen=true]{hyperref}
 %\lstset{
  % breaklines=no
 %}
+\DeclareRobustCommand{\apendices}{%
+\appendixpage%
+\appendix 
+\renewcommand{\thechapter}{\Roman{chapter}}%
+}

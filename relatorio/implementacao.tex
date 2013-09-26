@@ -8,16 +8,15 @@ Enquadramento geral do projecto, objectivos a atingir e identificação das tare
 
 \subsection{Tecnologias Utilizadas}
 Para este projecto foi escolhida a linguagem de programação PHP com ligação a base de dados MySQL, é utilizado o principio de programação orientada a objectos com um modelo de arquitectura Model-View-Controller (MVC).\\
-Para a ligação entre o PHP e o mySQL é utilizada a extenção MySQLi.
+Para a ligação entre o PHP e o MySQL é utilizada a extenção MySQLi.
 Para a criação das páginas a apresentar ao utilizador foi implementado o sistema de gestão de templates para PHP - Smarty (versão 3.1). E também o API de Javascript - jQuery (versão jquery-1.3.1).
 
 \subsection{Armazenamento dos Dados}
-Os dados utilizados pela aplicação são armazenados na base de dados local (mySQL) e quando um utilizador acede ao site é criada uma sessão em PHP que guarda, temporariamente, os dados necessários para manter o utilizador logado.
+Os dados utilizados pela aplicação são armazenados na base de dados local (mySQL) e quando um utilizador acede ao site é criada uma sessão em PHP que guarda, temporariamente, os dados necessários para manter o utilizador logado bem como as datas escolhidas (inicial, final e actual).
 
 \subsection{Hierarquia de Ficheiros}
 Os ficheiros com os controladores estão colocados na directoria \textit{``controller"}, os do modelo na directoria \textit{``model"}, da vista na directoria \textit{``view"}. As folhas de estilo (``CSS") dentro da directoria \textit{``css"}, os elementos gráficos são colocados dentro de \textit{``imagens"}. Todos os ficheiros com as bibliotecas javascript ou funções criadas para este site ficam dentro da directoria \textit{``js"}. Por fim os ficheiros utilizados pelo Smarty para apresentação de html ficam dentro da directoria \textit{``templates"}.\\
-As classes utilizadas no site estão fisicamente localizadas em ficheiros de extensão PHP com o mesmo nome da respectiva classe.
-
+As classes utilizadas no site estão fisicamente localizadas em ficheiros de extensão PHP com o mesmo nome da respectiva classe.\\
 
 \section{Decisões de Implementação Específicas}
 \subsection{Ligação à Base de Dados}
