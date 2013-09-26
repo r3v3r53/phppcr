@@ -9,19 +9,19 @@
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Interface: Marcar Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{18}{figure.caption.22}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Interface: Validar ou Cancelar Valida\IeC {\c c}\IeC {\~a}o de Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{19}{figure.caption.23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Base de Dados: Modelo F\IeC {\'\i }sico\relax }}{25}{figure.caption.25}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Base de Dados: Modelo F\IeC {\'\i }sico\relax }}{24}{figure.caption.25}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces UML: Diagrama de Classes\relax }}{26}{figure.caption.26}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Login\relax }}{27}{figure.caption.27}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Logout\relax }}{28}{figure.caption.28}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Listar Avalia\IeC {\c c}\IeC {\~o}es Entre Datas\relax }}{29}{figure.caption.29}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Listar Detalhes de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{30}{figure.caption.30}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Efectuar Inscri\IeC {\c c}\IeC {\~a}o em Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{31}{figure.caption.31}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Inscri\IeC {\c c}\IeC {\~a}o de Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{32}{figure.caption.32}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{33}{figure.caption.33}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{34}{figure.caption.34}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Validar Avalia\IeC {\c c}\IeC {\~a}o\relax }}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Valida\IeC {\c c}\IeC {\~a}o de Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{35}{figure.caption.36}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces UML: Diagrama de Classes\relax }}{25}{figure.caption.26}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Login\relax }}{26}{figure.caption.27}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Logout\relax }}{27}{figure.caption.28}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Listar Avalia\IeC {\c c}\IeC {\~o}es Entre Datas\relax }}{28}{figure.caption.29}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Listar Detalhes de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{29}{figure.caption.30}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Efectuar Inscri\IeC {\c c}\IeC {\~a}o em Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{30}{figure.caption.31}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Inscri\IeC {\c c}\IeC {\~a}o de Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{31}{figure.caption.32}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Novo Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{32}{figure.caption.33}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{33}{figure.caption.34}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Validar Avalia\IeC {\c c}\IeC {\~a}o\relax }}{34}{figure.caption.35}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Diagrama de Sequ\IeC {\^e}ncia: Cancelar Valida\IeC {\c c}\IeC {\~a}o de Momento de Avalia\IeC {\c c}\IeC {\~a}o\relax }}{34}{figure.caption.36}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

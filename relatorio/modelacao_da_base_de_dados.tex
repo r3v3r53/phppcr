@@ -24,7 +24,7 @@ Resumidamente a base de dados está representada da seguinte forma:
 \item \textbf{get\_coordinator\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de coordenador de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_coordinator_evaluations`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_coordinator_evaluations`(IN user_num INT, num_discipline INT)
+CREATE PROCEDURE `get_coordinator_evaluations`(IN user_num INT, num_discipline INT)
 begin
 SELECT 
 	av.num_avaliacao as id, av.tipo_avaliacao as type, 
@@ -49,7 +49,7 @@ end$$
 \item \textbf{get\_teacher\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de docente de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_teacher_evaluations`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_teacher_evaluations`(IN user_num INT, num_discipline INT)
+CREATE PROCEDURE `get_teacher_evaluations`(IN user_num INT, num_discipline INT)
 begin
 SELECT 
 	av.num_avaliacao as id, av.tipo_avaliacao as type, 
@@ -72,7 +72,7 @@ end$$
 \item \textbf{get\_student\_evaluations( user\_num, num\_discipline )} - Obter lista de avaliações com o perfil de aluno de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_student_evaluations`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_student_evaluations`(IN user_num INT, num_discipline INT)
+CREATE  PROCEDURE `get_student_evaluations`(IN user_num INT, num_discipline INT)
 begin
 SELECT 
 	av.num_avaliacao as id, av.tipo_avaliacao as type, 
@@ -93,7 +93,7 @@ end$$
 \item \textbf{get\_cursos\_user( user\_num )} - Obter lista de cursos a que utilizador esteja associado
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_cursos_user`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_cursos_user`(IN user_num INT)
+CREATE PROCEDURE `get_cursos_user`(IN user_num INT)
 begin
 SELECT c.num_curso as id, c.nome_curso as name, a.titulo_ano as year, x.role
 	FROM curso_ano as ca
@@ -124,7 +124,7 @@ end$$
 \item \textbf{get\_coordinator\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de coordenador de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_coordinator_disciplines`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_coordinator_disciplines`(IN user_num INT, num_course INT)
+CREATE  PROCEDURE `get_coordinator_disciplines`(IN user_num INT, num_course INT)
 begin
 SELECT d.num_disciplina as id, d.descricao as description, d.titulo as title
 	FROM disciplina d
@@ -138,7 +138,7 @@ end$$
 \item \textbf{get\_teacher\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de docente de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_teacher_disciplines`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_teacher_disciplines`(IN user_num INT, num_course INT)
+CREATE PROCEDURE `get_teacher_disciplines`(IN user_num INT, num_course INT)
 begin
 SELECT d.num_disciplina as id, d.descricao as description, d.titulo as title
 	FROM disciplina d
@@ -152,7 +152,7 @@ end$$
 \item \textbf{get\_student\_disciplines( user\_num, num\_course )} - Obter lista de disciplinas com o perfil de aluno de um determinado utilizador
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `get_student_disciplines`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `get_student_disciplines`(IN user_num INT, num_course INT)
+CREATE PROCEDURE `get_student_disciplines`(IN user_num INT, num_course INT)
 begin
 SELECT d.num_disciplina as id, d.descricao as description, d.titulo as title
 	FROM disciplina d
@@ -166,7 +166,7 @@ end$$
 \item \textbf{add\_evaluation( user\_num, discipline\_id, date, weight, classroom, type, observations )} - Adicionar uma avaliação a uma determinada disciplina
 \begin{lstlisting}
 DROP PROCEDURE IF EXISTS `add_evaluation`$$
-CREATE DEFINER=`moreira_aval`@`localhost` PROCEDURE `add_evaluation`(IN user_num INT(11), discipline_id INT(11), date DATE, weight INT(11), classroom VARCHAR(20), type VARCHAR(100), observations VARCHAR(1000))
+CREATE PROCEDURE `add_evaluation`(IN user_num INT(11), discipline_id INT(11), date DATE, weight INT(11), classroom VARCHAR(20), type VARCHAR(100), observations VARCHAR(1000))
 begin
 if (SELECT 1 FROM docente 
 	where num_utilizador = user_num 
