@@ -42,15 +42,28 @@ Por fim, para cada disciplina obtida sao consultadas as avaliações da mesma, a
 Quando um utilizador efectua o logout, todas as variáveis do objecto da classe modelo \code{User} e executa o método \code{clear} de cada uma das classes dos papéis possiveis. Estas classes herdam da classe \code{Role} que contem os métodos comuns a todas. Este método esvazia o array com os cursos.
 
 \subsection{Listar Avaliações}
-O sistema após ter feito as tarefas de verificar que utilizador está logado e quais os cursos, disciplinas e avaliações a ele estão associados, executa as acções solicitadas pelo método \code{GET}. Terminadas estas tarefas o \code{MainController} executa de novo o método \code{setCourses}.\\
-Após isso solicita ao controlador \code{CalendarController} quais as datas inicial e final definidas e solicita ao \code{UserController} as avaliações contidas nesse intervalo de datas, esses dados são passados à \code{View} que apresenta o resultado ao utilizador com auxílio do template engine \textit{Smarty}..
+O sistema após ter feito as tarefas de verificar que utilizador está logado e quais os cursos, disciplinas e avaliações a ele estão associados, executa as acções solicitadas pelo método \code{GET}. Terminadas estas tarefas o \code{MainController} executa de novo o método \code{setCourses} no \code{UserController} que por sua vez delega a execução no \code{User}.\\
+Após isso solicita ao controlador \code{CalendarController} quais as datas, inicial e final, definidas e solicita ao \code{UserController} as avaliações contidas nesse intervalo de datas. O controlador solicita as avaliações no intervalo ao \code{Usert} que por sua vez solicita a cada um dos \code{Role}, estes obtêm a lista a partir de cada um dos \code{Course}, que interrogam as suas \code{Discipline} que por sua vez retornam todas as \code{Evaluation} cuja data esteja dentro do intervalo pretendido.\\
+Esses dados são passados à \code{View} que apresenta o resultado ao utilizador com auxílio do template engine \textit{Smarty}.
 
 \subsection{Ver Detalhes de Avaliação}
-
-
+Os detalhes das avaliações são apresentados ao ser seleccionado um dia no calendário. Sempre que o utilizador acede ao site, o \code{CalendarController} cria um novo objecto da classe de modelo \code{Calendar}.\\
+No seu construtor é de imediato definida a data inicial, data final e o dia actual, que poderá ser o dia em que o acesso é feito ao sistema ou dia escolhido no calendário. Sempre que o código deixa de ser executado no servidor o método \code{__destruct} desta classe armazena em variáveis da sessão actual as datas. Essas variáveis serão sempre utilizadas a cada acesso para a definição das mesmas, caso não haja interacção do utilizador a esse nível.\\
+Com a data actual adquirida o \code{MainController} solicita ao \code{UserController} as avaliações associadas ao \code{User} para esse dia.\\
+Obtida a lista, a mesma é passada à classe de modelo \code{Details}, que organiza a informação por forma a ser facilmente utilizada pelo Smarty que apresenta os detalhes das mesmas, apresentando os comandos possiveis a cada uma de acordo com o \code{Role} associado ao \code{User}.
+ 
 \subsection{Marcar Avaliação}
+A marcação de uma avaliação é uma acção que é encaminhada para o \code{UserController} e chamado o método \code{newEvaluation}.\\
+Neste método é verificado se foi submetido o formulário para a inserção da nova avaliação, em caso afirmativo o controlador adiciona a avaliação ao \code{User} através do método \code{newEvaluation} que por sua vez executa a stored procedure \code{add_evaluation}, como já foi explicado anteriormente a stored procedure verifica se o utilizador tem a permissão para criar tal avaliação.\\
+Caso não tenha sido submetido o formulário, o controlador questiona à classe \code{User} quais as disciplinas que o \code{User} tem como \code{Role: Teacher} através do método \code{getTeaching} da classe \code{User}. A variável \code{teaching} é definida no \code{login}, ou seja logo quando o \code{User} é criado em que question a classe \code{BD} quais as disciplinas em que o \code{User} é \code{Teacher}. Sempre que esta variável contém alguma disciplina o menu do site apresenta o item \textit{``nova avaliação"}.\\
+Obtidos os dados é apresentado o formulário ao utilizador com uma caixa de selecção onde são apresentadas as disciplinas onde o utilizador é docente.
+
 \subsection{Cancelar Avaliação}
-\subsection{Validar Avaliação}
-\subsection{Cancelar Validação de Avaliação}
-\subsection{Inscrever em Avaliação}
-\subsection{Cancelar Inscrição em Avaliação}
+Ao cancelar uma avaliação o \code{UserController} solicita o objecto \code{Teacher} ao \code{User} e executa nesse objecto o método \code{cancelEvaluation}, desta forma apenas poderá ser cancelada uma avaliação em que o \code{User} é \code{Teacher}.
+
+
+\subsection{Validar e Cancelar Validação de Avaliação}
+A validação da avaliação é feita de forma semelhante à anterior, mas deta forma o controlador solicita ao \code{User} o objecto \code{Coordinator} e executa o seu método \code{validate} ou \code{unvalidate} conforme a situação.
+
+\subsection{Inscrever e Cancelar Inscrição em Avaliação}
+A inscrição numa avaliação é feita com o \code{UserController} a solicitar ao \code{User} o objecto \code{Student} e executando o seu método \code{inscribe} ou \code{uninscribe} conforme a acção pretendida.
